@@ -1,6 +1,6 @@
-#WordCamp Ogijima 2020 Site.
+# WordCamp Ogijima 2020 Site.
 
-WordCamp Ogijima 2020 のサイトの CSS とか画像などをおきます。
+WordCamp Ogijima 2020 ローカル開発用のプラグインです。
 
 ## Get started
 
