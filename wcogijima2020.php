@@ -18,7 +18,7 @@ function wco_enqueue_style_script() {
 	wp_enqueue_style(
 		'wco_style',
 		WCO_STYLES_PATH . '/src/css/style.css',
-		[],
+		[ 'twentytwenty-style' ],
 		filemtime( WCO_STYLES_PATH . '/src/css/style.css' )
 	);
 }
