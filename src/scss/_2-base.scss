@@ -172,12 +172,14 @@ hr.styled-separator::after {
 
 a {
 	//color: #cd2653;
-	color: #0b32af;
+	//color: #0b32af;
+	color: #383838;
 	text-decoration: underline;
 }
 
 a:hover,
 a:focus {
+	color: #888;
 	text-decoration: none;
 }
 

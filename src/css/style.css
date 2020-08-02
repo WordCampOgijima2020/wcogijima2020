@@ -364,11 +364,12 @@ hr.styled-separator::after {
   right: calc(50% - 0.5rem); }
 
 a {
-  color: #0b32af;
+  color: #383838;
   text-decoration: underline; }
 
 a:hover,
 a:focus {
+  color: #888;
   text-decoration: none; }
 
 /* Lists ------------------------------------- */
