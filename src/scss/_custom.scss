@@ -1,2 +1,63 @@
 @charset "UTF-8";
 // ======================================== WordCamp Ogijima 2020 Custom STYLES
+html[lang="ja"] h1.entry-title,
+html[lang="ja"] h2.entry-title {
+	text-align: left;
+	font-size: 2.4rem;
+}
+@media (min-width: 700px) {
+	html[lang="ja"] h1.entry-title,
+	html[lang="ja"] h2.entry-title {
+		font-size: 3.4rem;
+	}
+}
+@media (min-width: 1220px) {
+	html[lang="ja"] h1.entry-title,
+	html[lang="ja"] h2.entry-title {
+		font-size: 4rem;
+	}
+}
+html[lang="ja"] .widget .widget-title {
+	font-size: 2rem;
+}
+@media (min-width: 700px) {
+	html[lang="ja"] .widget .widget-title {
+		font-size: 2.4rem;
+	}
+}
+
+html[lang="ja"] h1,.heading-size-1 {
+    font-size: 3.052rem;
+}
+html[lang="ja"] h2,.heading-size-2 {
+    font-size: 2.441rem
+}
+html[lang="ja"] h3,.heading-size-3 {
+    font-size: 1.953rem
+}
+html[lang="ja"] h4,.heading-size-4 {
+    font-size: 1.563rem
+}
+html[lang="ja"] h5,.heading-size-5 {
+    font-size: 1.25rem
+}
+html[lang="ja"] h6,.heading-size-6 {
+    font-size: 1rem;
+}
+@media (min-width: 700px) {
+    html[lang="ja"] h1,.heading-size-1 {
+        font-size: 4.209rem
+    }
+    html[lang="ja"] h2,.heading-size-2 {
+        font-size: 3.157rem
+    }
+    html[lang="ja"] h3,.heading-size-3 {
+        font-size: 2.369rem
+    }
+    html[lang="ja"] h4,.heading-size-4 {
+        font-size: 1.777rem
+    }
+    html[lang="ja"] h5,.heading-size-5 {
+        font-size: 1.333rem
+    }
+}
