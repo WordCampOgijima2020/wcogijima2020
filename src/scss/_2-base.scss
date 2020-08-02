@@ -452,6 +452,7 @@ button,
 .wp-block-button__link,
 .wp-block-file__button {
 	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+	font-family: $font;
 	line-height: 1;
 }
 
@@ -466,6 +467,7 @@ button,
 	.wp-block-button__link,
 	.wp-block-file__button {
 		font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+		font-family: $font;
 	}
 }
 
