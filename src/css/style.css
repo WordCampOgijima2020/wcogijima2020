@@ -4750,6 +4750,14 @@ html[lang="ja"] h5, .heading-size-5 {
 html[lang="ja"] h6, .heading-size-6 {
   font-size: 1rem; }
 
+h2.section-title:after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #666;
+  margin-top: 2rem; }
+
 /* -------------------------------------------------------------------------- */
 /*	UTILITY STYLES
 /* -------------------------------------------------------------------------- */
