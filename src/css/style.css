@@ -207,7 +207,7 @@ Inter variable font. Usage:
   /* stylelint-disable-line font-weight-notation */
   font-style: normal;
   font-display: swap;
-  src: url(./assets/fonts/inter/Inter-upright-var.woff2) format("woff2"); }
+  src: url(https://2020.ogijima.wordcamp.org/wp-content/themes/twentytwenty/assets/assets/fonts/inter/Inter-upright-var.woff2) format("woff2"); }
 
 @font-face {
   font-family: "Inter var";
@@ -215,7 +215,7 @@ Inter variable font. Usage:
   /* stylelint-disable-line font-weight-notation */
   font-style: italic;
   font-display: swap;
-  src: url(./assets/fonts/inter/Inter-italic-var.woff2) format("woff2"); }
+  src: url(https://2020.ogijima.wordcamp.org/wp-content/themes/twentytwenty/assets/assets/fonts/inter/Inter-italic-var.woff2) format("woff2"); }
 
 /* Accessibility Settings -------------------- */
 @media (prefers-reduced-motion: reduce) {
@@ -588,6 +588,7 @@ button,
 .wp-block-button__link,
 .wp-block-file__button {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Inter var", "Noto Sans JP", "Hiragino Kaku Gothic Pro", sans-serif;
   line-height: 1; }
 
 @supports (font-variation-settings: normal) {
@@ -599,7 +600,8 @@ button,
   .faux-button.more-link,
   .wp-block-button__link,
   .wp-block-file__button {
-    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif; } }
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Inter var", "Noto Sans JP", "Hiragino Kaku Gothic Pro", sans-serif; } }
 
 input,
 textarea {
@@ -3226,6 +3228,7 @@ div.comment:first-of-type {
   margin-bottom: 0; }
 
 .widget .widget-title {
+  font-family: "Inter var", "Noto Sans JP", "Hiragino Kaku Gothic Pro", sans-serif;
   font-size: 2rem;
   margin: 0 0 2rem; }
 
@@ -3263,12 +3266,14 @@ div.comment:first-of-type {
 .widget_text dt,
 .widget-content .rssSummary {
   font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-family: "Inter var", "Noto Sans JP", "Hiragino Kaku Gothic Pro", sans-serif;
   letter-spacing: normal; }
 
 .widget-content cite,
 .widget-content figcaption,
 .widget-content .wp-caption-text {
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif; }
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Inter var", "Noto Sans JP", "Hiragino Kaku Gothic Pro", sans-serif; }
 
 @supports (font-variation-settings: normal) {
   .widget-content cite,
