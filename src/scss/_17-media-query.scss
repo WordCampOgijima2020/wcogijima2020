@@ -285,27 +285,32 @@
 
 	h1,
 	.heading-size-1 {
-		font-size: 6.4rem;
+		//font-size: 6.4rem;
+		font-size: 4.209rem;
 	}
 
 	h2,
 	.heading-size-2 {
-		font-size: 4.8rem;
+		//font-size: 4.8rem;
+		font-size: 3.157rem;
 	}
 
 	h3,
 	.heading-size-3 {
-		font-size: 4rem;
+		//font-size: 4rem;
+		font-size: 2.369rem;
 	}
 
 	h4,
 	.heading-size-4 {
-		font-size: 3.2rem;
+		//font-size: 3.2rem;
+		font-size: 1.777rem;
 	}
 
 	h5,
 	.heading-size-5 {
-		font-size: 2.4rem;
+		//font-size: 2.4rem;
+		font-size: 1.333rem;
 	}
 
 	h6,
@@ -1029,6 +1034,7 @@
 	/* Widgets ------------------------------- */
 
 	.widget .widget-title {
+		font-size: 2.4rem;
 		margin-bottom: 3rem;
 	}
 

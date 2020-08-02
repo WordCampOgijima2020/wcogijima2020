@@ -95,15 +95,15 @@ html {
 body {
   background: #f5efe0;
   box-sizing: border-box;
-  color: #000;
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+  color: #383838;
+  font-family: "Inter var", "Noto Sans JP", "Hiragino Kaku Gothic Pro", sans-serif;
   font-size: 1.8rem;
   letter-spacing: -0.015em;
   text-align: left; }
 
 @supports (font-variation-settings: normal) {
   body {
-    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif; } }
+    font-family: "Inter var", "Noto Sans JP", "Hiragino Kaku Gothic Pro", sans-serif; } }
 
 *,
 *::before,
@@ -245,29 +245,29 @@ h6,
 
 h1,
 .heading-size-1 {
-  font-size: 3.6rem;
+  font-size: 3.052rem;
   font-weight: 800;
   line-height: 1.138888889; }
 
 h2,
 .heading-size-2 {
-  font-size: 3.2rem; }
+  font-size: 2.441rem; }
 
 h3,
 .heading-size-3 {
-  font-size: 2.8rem; }
+  font-size: 1.953rem; }
 
 h4,
 .heading-size-4 {
-  font-size: 2.4rem; }
+  font-size: 1.563rem; }
 
 h5,
 .heading-size-5 {
-  font-size: 2.1rem; }
+  font-size: 1.25rem; }
 
 h6,
 .heading-size-6 {
-  font-size: 1.6rem;
+  font-size: 1rem;
   letter-spacing: 0.03125em;
   text-transform: uppercase; }
 
@@ -364,7 +364,7 @@ hr.styled-separator::after {
   right: calc(50% - 0.5rem); }
 
 a {
-  color: #cd2653;
+  color: #0b32af;
   text-decoration: underline; }
 
 a:hover,
@@ -2763,8 +2763,9 @@ figure.wp-block-table.is-style-stripes {
   text-decoration: none; }
 
 .entry-content p,
-.entry-content li {
-  line-height: 1.4; }
+.entry-content ul li {
+  font-size: 1.563rem;
+  line-height: 1.6; }
 
 .entry-content li img {
   display: inline-block; }
@@ -2792,7 +2793,7 @@ figure.wp-block-table.is-style-stripes {
 
 /* Font Families ----------------------------- */
 .entry-content {
-  font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-family: "Inter var", "Noto Sans JP", "Hiragino Kaku Gothic Pro", sans-serif;
   letter-spacing: normal; }
 
 .entry-content h1,
@@ -3223,6 +3224,7 @@ div.comment:first-of-type {
   margin-bottom: 0; }
 
 .widget .widget-title {
+  font-size: 2rem;
   margin: 0 0 2rem; }
 
 .widget li {
@@ -3712,19 +3714,19 @@ a.to-the-top > * {
     margin: 4.5rem auto 2.5rem; }
   h1,
   .heading-size-1 {
-    font-size: 6.4rem; }
+    font-size: 4.209rem; }
   h2,
   .heading-size-2 {
-    font-size: 4.8rem; }
+    font-size: 3.157rem; }
   h3,
   .heading-size-3 {
-    font-size: 4rem; }
+    font-size: 2.369rem; }
   h4,
   .heading-size-4 {
-    font-size: 3.2rem; }
+    font-size: 1.777rem; }
   h5,
   .heading-size-5 {
-    font-size: 2.4rem; }
+    font-size: 1.333rem; }
   h6,
   .heading-size-6 {
     font-size: 1.8rem; }
@@ -4149,6 +4151,7 @@ a.to-the-top > * {
     padding-top: 8rem; }
   /* Widgets ------------------------------- */
   .widget .widget-title {
+    font-size: 2.4rem;
     margin-bottom: 3rem; }
   /* Site Footer --------------------------- */
   .footer-top-visible .footer-nav-widgets-wrapper,
@@ -4701,3 +4704,38 @@ a.to-the-top > * {
   .wp-block-pullquote.is-style-solid-color.alignleft::before,
   .wp-block-pullquote.is-style-solid-color.alignright::before {
     top: 0; } }
+
+/* -------------------------------------------------------------------------- */
+/*	WordCamp Ogijima 2020 Custom STYLES
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/*	UTILITY STYLES
+/* -------------------------------------------------------------------------- */
+/* animation */
+@keyframes float_logo {
+  0% {
+    -webkit-transform: rotate(-4deg);
+    transform: rotate(-4deg); }
+  24% {
+    -webkit-transform: translateX(-8px) rotate(5deg);
+    transform: translateX(-8px) rotate(5deg); }
+  48% {
+    -webkit-transform: translateX(20px) rotate(-6deg);
+    transform: translateX(20px) rotate(-6deg); }
+  75% {
+    -webkit-transform: translateX(-24px) rotate(5deg);
+    transform: translateX(-24px) rotate(5deg); }
+  100% {
+    -webkit-transform: translateX(0) rotate(-4deg);
+    transform: translateX(0) rotate(-4deg); } }
+
+@keyframes float_img {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  50% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px); }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }

@@ -1,6 +1,8 @@
 @charset "UTF-8";
 // ======================================== 1. Document Setup
 
+$font: "Inter var", 'Noto Sans JP', 'Hiragino Kaku Gothic Pro', sans-serif;
+
 html {
 	font-size: 62.5%; /* 1rem = 10px */
 	scroll-behavior: smooth;
@@ -15,8 +17,10 @@ html {
 body {
 	background: #f5efe0;
 	box-sizing: border-box;
-	color: #000;
-	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+	//color: #000;
+	color: #383838;
+	//font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+	font-family: $font;
 	font-size: 1.8rem;
 	letter-spacing: -0.015em;
 	text-align: left;
@@ -25,7 +29,8 @@ body {
 @supports ( font-variation-settings: normal ) {
 
 	body {
-		font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+		//font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+		font-family: $font;
 	}
 }
 

@@ -31,7 +31,12 @@
 
 .entry-content p,
 .entry-content li {
-	line-height: 1.4;
+	//line-height: 1.4;
+}
+.entry-content p,
+.entry-content ul li {
+	font-size: 1.563rem;
+	line-height: 1.6;
 }
 
 .entry-content li img {
@@ -66,7 +71,8 @@
 /* Font Families ----------------------------- */
 
 .entry-content {
-	font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond, "Times New Roman", serif;
+	//font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-family: $font;
 	letter-spacing: normal;
 }
 
