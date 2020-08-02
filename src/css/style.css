@@ -2809,7 +2809,7 @@ figure.wp-block-table.is-style-stripes {
 .entry-content address,
 .entry-content .wp-caption-text,
 .entry-content .wp-block-file {
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif; }
+  font-family: "Inter var", "Noto Sans JP", "Hiragino Kaku Gothic Pro", sans-serif; }
 
 @supports (font-variation-settings: normal) {
   .entry-content h1,
@@ -2824,7 +2824,8 @@ figure.wp-block-table.is-style-stripes {
   .entry-content address,
   .entry-content .wp-caption-text,
   .entry-content .wp-block-file {
-    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif; } }
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Inter var", "Noto Sans JP", "Hiragino Kaku Gothic Pro", sans-serif; } }
 
 /* Alignment Classes ------------------------- */
 .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {

@@ -88,7 +88,8 @@
 .entry-content address,
 .entry-content .wp-caption-text,
 .entry-content .wp-block-file {
-	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+	//font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+	font-family: $font;
 }
 
 @supports ( font-variation-settings: normal ) {
@@ -106,6 +107,7 @@
 	.entry-content .wp-caption-text,
 	.entry-content .wp-block-file {
 		font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+		font-family: $font;
 	}
 }
 
