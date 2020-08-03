@@ -97,6 +97,11 @@ button,
 /* -------------------------------------------------------------------------- */
 /*	11. Entry Content
 /* -------------------------------------------------------------------------- */
+.entry-content p,
+.entry-content ul li {
+  font-size: 1.563rem;
+  line-height: 1.6; }
+
 /* Font Families ----------------------------- */
 .entry-content {
   font-family: "Inter var", "Noto Sans JP", "Hiragino Kaku Gothic Pro", sans-serif;
