@@ -449,7 +449,7 @@ ul.wp-block-latest-posts li a:hover {
   ul.wp-block-latest-posts li .alignleft {
     float: left;
     max-width: 26rem; }
-  /* .archive, .blog ------------------------- */
+  /* .archive, .blog  */
   .archive article,
   .blog article {
     position: relative;
@@ -459,25 +459,30 @@ ul.wp-block-latest-posts li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center !important; }
-  .archive article .entry-header,
-  .blog article .entry-header {
-    width: 100%;
-    position: relative; }
-  .archive article .section-inner,
-  .blog article .section-inner {
-    width: calc(100% - 2rem); }
-  .archive article .entry-header-inner,
-  .blog article .entry-header-inner {
-    max-width: 100rem !important; }
-  .archive article figure.featured-media,
-  .blog article figure.featured-media {
-    width: 40%;
-    margin-top: 4rem; }
-  .archive article .post-inner,
-  .blog article .post-inner {
-    width: 60%;
-    margin-top: 4rem;
-    padding-top: 0; } }
+    .archive article.sticky figure.featured-media,
+    .blog article.sticky figure.featured-media {
+      margin-top: 4rem;
+      max-width: 60rem;
+      width: 100%; }
+    .archive article:not(.sticky) figure.featured-media,
+    .blog article:not(.sticky) figure.featured-media {
+      margin-top: 4rem;
+      width: 40%; }
+    .archive article:not(.sticky) .post-inner,
+    .blog article:not(.sticky) .post-inner {
+      margin-top: 4rem;
+      padding-top: 0;
+      width: 60%; }
+    .archive article .entry-header,
+    .blog article .entry-header {
+      width: 100%;
+      position: relative; }
+    .archive article .section-inner,
+    .blog article .section-inner {
+      width: calc(100% - 2rem); }
+    .archive article .entry-header-inner,
+    .blog article .entry-header-inner {
+      max-width: 100rem !important; } }
 
 /* -------------------------------------------------------------------------- */
 /*	UTILITY STYLES
