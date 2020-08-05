@@ -1,12 +1,116 @@
 @charset "UTF-8";
 // ======================================== 16. Site Footer
 
+/* @group footer */
+
+/* footer */
+
 .footer-nav-widgets-wrapper,
 #site-footer {
-	background-color: #fff;
-	border-color: #dedfdf;
+	//background-color: #fff;
+	//border-color: #dedfdf;
 	border-style: solid;
 	border-width: 0;
+}
+.footer-nav-widgets-wrapper {
+	margin-top:0 !important;
+	border-color:#8DE4DD;
+	background:url(https://2020.ogijima.wordcamp.org/files/2020/08/boar.png) no-repeat bottom 20px left 40px;
+	background-size:85px auto;
+	padding-bottom:80px;
+	@include min($bp){
+		padding-bottom:40px;
+	}
+	.footer-widgets-outer-wrapper{
+		border-bottom:none;
+	}
+	.wcb_widget_sponsors {
+		padding: 3rem;
+		h2.widget-title {
+			line-height: 1.6;
+			font-size: 3rem;
+			font-weight: 900 !important;
+			letter-spacing: 1px;
+			position:relative;
+			color:$maincolor;
+			margin-bottom:4rem;
+			&:before{
+				content: "スポンサー";
+				display: block;
+				position:absolute;
+				padding-top:4.5rem;
+				font-style: normal;
+				font-size: 1.953rem;
+				font-weight: 700;
+				letter-spacing: 1px;
+				color:$basecolor;
+			}
+			&:after {
+				content: "";
+				display: block;
+				width: 40px;
+				height: 3px;
+				background: $subcolor;
+				margin-top: 5rem;
+			}
+		}
+		a {
+			display: block;
+			box-sizing: border-box;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			margin-bottom: 30px;
+			padding: 40px;
+			text-align: center;
+			img {
+				max-width: 80%;
+				display: block;
+				margin: 0 auto;
+			}
+		}
+	}
+	.wcb_widget_sponsors .sponsor-logo {
+		display: block!important;
+		}
+	@include min($bp){
+		.footer-inner {
+			max-width: 90rem;
+		}
+		.footer-widgets.column-one {
+			width: 100%;
+			.wcb_widget_sponsors {
+				padding: 0;
+				.sponsor-level {
+					display: flex;
+					position: relative;
+					padding-top: 35px;
+					justify-content: space-between;
+					h4 {
+						position: absolute;
+						top: 0;
+						font-size: 1.6rem;
+							@include min($bp){
+								font-size: 1.8rem !important;
+							}
+							@include min(1220px){
+								font-size: 2rem !important;
+							}
+					}
+					a {
+						width: 48%;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+#site-footer {
+	background: linear-gradient(rgba(78, 154, 186, 0.8), rgba(78, 154, 186, 0.8)),
+url(https://2020.ogijima.wordcamp.org/files/2020/08/footer_bg.png);
+	border-top: none;
+	padding: 25px 0;
 }
 
 .footer-credits {
@@ -38,3 +142,39 @@
 .powered-by-wordpress {
     color: #3c434a;
 }
+a.to-the-top {
+	position: fixed;
+	bottom: 20px;
+	right: -10px;
+	display: block;
+	background: url('https://2020.ogijima.wordcamp.org/files/2020/08/seagull_color.png') no-repeat center center;
+	background-size: contain;
+	width: 137px;
+	height: 150px;
+	z-index: 1000;
+	transform: scale(1) rotate(0);
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out;
+	animation-delay: .5s;
+	animation-iteration-count: infinite;
+	animation-name: float_img;
+	&:hover {
+		animation: none;
+		transform: rotate(2deg);
+	}
+	@include min($bp){
+		width: 275px;
+		height: 300px;
+		right: -50px;
+	}
+}
+
+.showing-modal a.to-the-top{
+	display:none;
+}
+
+
+/* @end */
