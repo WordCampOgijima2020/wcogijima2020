@@ -547,19 +547,22 @@ td.tix-column-price {
   padding-top: 0.2em; }
 
 /* fukidashi */
+.fukidashi-left-media,
+.fukidashi-right-media,
 .fukidashi {
   border: 1px solid #ccc;
   border-radius: 20px; }
+  .fukidashi-left-media img,
+  .fukidashi-right-media img,
+  .fukidashi img {
+    border-radius: 30px;
+    padding: 5px; }
 
 .fukidashi-left-media .wp-block-media-text__content {
-  margin-left: 1em;
-  border: 1px solid #ccc;
-  border-radius: 20px; }
+  margin-left: 1em; }
 
 .fukidashi-right-media .wp-block-media-text__content {
-  margin-right: 1em;
-  border: 1px solid #ccc;
-  border-radius: 20px; }
+  margin-right: 1em; }
 
 /* -------------------------------------------------------------------------- */
 /*	UTILITY STYLES
