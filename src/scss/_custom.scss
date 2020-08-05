@@ -380,15 +380,28 @@ td.tix-column-price {
     .wp-block-media-text__content {
         border: 1px solid #ccc;
         border-radius: 20px;
+        &:after {
+            color: #ccc;
+            content: '○。';
+            position: absolute;
+            top: 30%;
+        }
     }
 }
 .fukidashi-left-media {
     .wp-block-media-text__content {
-        margin-left: 1em;
+        margin-left: 2em;
+        &:after {
+            left: -2.2em;
+            transform: rotateZ(120deg);
+        }
     }
 }
 .fukidashi-right-media {
     .wp-block-media-text__content {
-        margin-right: 1em;
+        margin-right: 2em;
+        &:after {
+            right: -2.2em;
+        }
     }
 }
