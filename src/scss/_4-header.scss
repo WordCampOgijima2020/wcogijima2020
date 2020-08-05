@@ -1,2 +1,18 @@
 @charset "UTF-8";
 // ======================================== 4.	Site Header
+.admin-bar {
+	 .header-navigation-wrapper {
+		 top: 40px;
+	 }
+	 img.custom-logo {
+		top: 50px;
+	}
+}
+
+#wpadminbar a.ab-item span {
+	color: #eee;
+}
+
+#wpadminbar:not(.mobile) .ab-top-menu li:hover a.ab-item span {
+	color: #00b9eb;
+}
