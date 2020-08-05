@@ -185,6 +185,32 @@ button,
   border-style: solid;
   border-width: 0; }
 
+.footer-credits {
+  display: block;
+  position: relative;
+  text-align: center;
+  width: 100%; }
+  .footer-credits:before {
+    background: url("https://2020.ogijima.wordcamp.org/files/2020/08/wp_logo_w.png") no-repeat center center;
+    content: '';
+    width: 54px;
+    height: 54px;
+    background-size: contain;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%); }
+  .footer-credits a:hover {
+    color: #f1fbff; }
+
+.footer-copyright {
+  padding-top: 60px;
+  text-align: center;
+  margin: auto; }
+
+.powered-by-wordpress {
+  color: #3c434a; }
+
 /* -------------------------------------------------------------------------- */
 /*	17. Media Queries
 /* -------------------------------------------------------------------------- */
@@ -511,32 +537,13 @@ th.tix-column-price {
 td.tix-column-price {
   text-align: center; }
 
-/* footer */
-.footer-credits {
-  display: block;
-  position: relative;
-  text-align: center;
-  width: 100%; }
-  .footer-credits:before {
-    background: url("https://2020.ogijima.wordcamp.org/files/2020/08/wp_logo_w.png") no-repeat center center;
-    content: '';
-    width: 54px;
-    height: 54px;
-    background-size: contain;
-    position: absolute;
-    left: 50%;
-    top: 0;
-    transform: translateX(-50%); }
-  .footer-credits a:hover {
-    color: #f1fbff; }
+/* attendees */
+#tix-attendees .avatar {
+  width: 80px;
+  height: 80px; }
 
-.footer-copyright {
-  padding-top: 60px;
-  text-align: center;
-  margin: auto; }
-
-.powered-by-wordpress {
-  color: #3c434a; }
+#tix-attendees .tix-field {
+  margin-left: 100px; }
 
 /* -------------------------------------------------------------------------- */
 /*	UTILITY STYLES
