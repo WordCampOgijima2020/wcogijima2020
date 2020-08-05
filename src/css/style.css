@@ -484,6 +484,15 @@ ul.wp-block-latest-posts li a:hover {
     .blog article .entry-header-inner {
       max-width: 100rem !important; } }
 
+/* tickets */
+.tix-column-description {
+  line-height: 1.8; }
+
+label.tix-ticket-title {
+  padding-top: 1em;
+  display: inline-block;
+  color: #4e9aba; }
+
 /* -------------------------------------------------------------------------- */
 /*	UTILITY STYLES
 /* -------------------------------------------------------------------------- */
