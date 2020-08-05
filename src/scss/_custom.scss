@@ -380,6 +380,7 @@ td.tix-column-price {
     .wp-block-media-text__content {
         border: 1px solid #ccc;
         border-radius: 20px;
+        position: relative;
         &:after {
             color: #ccc;
             content: '○。';
@@ -393,7 +394,7 @@ td.tix-column-price {
         margin-left: 2em;
         &:after {
             left: -2.2em;
-            transform: rotateZ(120deg);
+            transform: rotate(120deg);
         }
     }
 }
