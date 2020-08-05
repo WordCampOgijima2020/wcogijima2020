@@ -1,11 +1,13 @@
 @charset "UTF-8";
 // ======================================== 11. Entry Content
 
-.entry-content p,
-.entry-content ul li {
-	font-size: 1.563rem;
-	line-height: 1.6;
-}
+.entry-content {
+	p,
+	ul li {
+		font-size: 1.563rem;
+		line-height: 1.6;
+	}
+} 
 
 /* Font Families ----------------------------- */
 
@@ -15,38 +17,63 @@
 	letter-spacing: normal;
 }
 
-.entry-content h1,
-.entry-content h2,
-.entry-content h3,
-.entry-content h4,
-.entry-content h5,
-.entry-content h6,
-.entry-content cite,
-.entry-content figcaption,
-.entry-content table,
-.entry-content address,
-.entry-content .wp-caption-text,
-.entry-content .wp-block-file {
-	//font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
-	font-family: $font;
+.entry-content {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	cite,
+	figcaption,
+	table,
+	address,
+	.wp-caption-text,
+	.wp-block-file {
+		//font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+		font-family: $font;
+	}
+	form {
+		label {
+			font-family: sans-serif;
+		}
+		input:focus,
+		textarea:focus {
+			outline: 1px #383838 solid;
+		}
+		button {
+			background: #383838;
+			border-radius: 10px;
+			box-shadow: 2px 2px 5px #ccc;
+			&:hover {
+				text-decoration: none;
+				opacity: .7;
+			}
+		}
+	}
+	.flex {
+		display: flex;
+		flex-wrap: wrap;
+	}
 }
 
 @supports ( font-variation-settings: normal ) {
-
-	.entry-content h1,
-	.entry-content h2,
-	.entry-content h3,
-	.entry-content h4,
-	.entry-content h5,
-	.entry-content h6,
-	.entry-content cite,
-	.entry-content figcaption,
-	.entry-content table,
-	.entry-content address,
-	.entry-content .wp-caption-text,
-	.entry-content .wp-block-file {
-		//font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
-		font-family: $font;
+	.entry-content {
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6,
+		cite,
+		figcaption,
+		table,
+		address,
+		.wp-caption-text,
+		.wp-block-file {
+			//font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+			font-family: $font;
+		}
 	}
 }
 
