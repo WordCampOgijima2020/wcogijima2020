@@ -373,11 +373,13 @@ td.tix-column-price {
 .fukidashi-left-media,
 .fukidashi-right-media,
 .fukidashi {
-    border: 1px solid #ccc;
-    border-radius: 20px;
     img {
         border-radius: 30px;
         padding: 5px;
+    }
+    .wp-block-media-text__content {
+        border: 1px solid #ccc;
+        border-radius: 20px;
     }
 }
 .fukidashi-left-media {
