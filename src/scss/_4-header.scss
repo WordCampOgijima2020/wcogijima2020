@@ -16,3 +16,250 @@
 #wpadminbar:not(.mobile) .ab-top-menu li:hover a.ab-item span {
 	color: #00b9eb;
 }
+
+.site-description {
+	border: 0;
+	clip: rect(1px,1px,1px,1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+	word-break: normal;
+}
+
+#site-header{
+	background: 
+		linear-gradient(180deg, rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, 0) 60%, #FFFFFF 100%),
+		url('https://2020.ogijima.wordcamp.org/files/2020/08/content_bg.png') no-repeat center top;
+	background-size: cover;
+	padding-bottom: 80px;
+	@include min($bp){
+		padding-bottom: 80px;
+	}
+	@include min(1000px){
+		padding-bottom: 200px;
+	}
+}
+
+.home #site-header {
+	background: url('https://2020.ogijima.wordcamp.org/files/2020/08/main_img_color.jpg') no-repeat center top;
+	background-size: cover;
+	padding-bottom: 600px;
+	@include min($bp){
+		background: url('https://2020.ogijima.wordcamp.org/files/2020/08/main_img_color.jpg') no-repeat center top;
+		background-size: cover;
+		padding-bottom: 900px;
+	}
+}
+
+.header-inner {
+	max-width: 120rem;
+	margin: 0 auto;
+}
+
+.header-titles-wrapper {
+	padding-right: 0;
+}
+
+.site-logo img {
+	max-height: 8rem;
+	position: fixed;
+	top: 15px;
+	left: 15px;
+	animation-duration: 45s;
+	animation-timing-function: ease-in-out;
+	animation-delay: .2s;
+	animation-iteration-count: infinite;
+	animation-name: float_logo;
+	z-index:1000;
+	@include min($bp){
+		max-height: 10rem;
+		left: 5%;
+	}
+	@include min(1000px){
+		max-height: 12rem;
+		transform: rotate(-4deg);
+		left: 5%;
+		top: 15px;
+	}
+}
+
+.home .site-logo img {
+	position: absolute;
+	top: 15px;
+	left: 10px;
+		@include min($bp){
+		max-height: 15rem;
+		left: 5%;
+	}
+	@include min(1000px){
+		max-height: 18rem;
+		transform: rotate(-4deg);
+		left: 15%;
+		top: 95px;
+	}
+}
+
+/* @group navigation */
+
+/* g_nav */
+
+.header-navigation-wrapper {
+	position: fixed;
+	top: 15px;
+	display: block;
+	left: 0;
+	right: 0;
+	max-width: 90rem;
+	padding: 15px 0 10px;
+	margin:0 auto;
+	@include min(1000px){
+		background: rgba(243,243,243,0.85);
+		border-radius:20px;
+	}
+}
+
+.home .header-navigation-wrapper{
+	position: absolute;
+	top:auto;
+	bottom:30px;
+}
+
+.primary-menu-wrapper {
+	margin: 0 auto;
+	max-width:70rem;
+}
+
+.primary-menu {
+	a:hover,
+	a:focus,
+	.current_page_ancestor {
+		text-decoration: none;
+	}
+	li.current-menu-item > a,
+	li.current-menu-item > .link-icon-wrapper > a {
+		text-decoration: none;
+	}
+	li {
+		margin-left:30px;
+		a {
+			color: $basecolor !important;
+			text-decoration: none;
+			font-size:14px;
+			font-weight:bold;
+		}
+		a:after {
+			content: "";
+			height: 5px;
+			display: block;
+			margin-top:2px;
+			transition: all 0.3s ease;
+		}
+		a:hover:after {
+			background: $subcolor;
+		}
+	}
+	.icon {
+	  display: none;
+	}
+	.icon::before,
+	.icon::after {
+		content: none;
+		display: none;
+	}
+	li.current-menu-item,
+	li.current_page_ancestor{
+		a {
+			text-decoration: none;
+			&:after {
+				content: "";
+				height: 5px;
+				background: $subcolor;
+				display: block;
+			}
+		}
+		ul{
+			li.current-menu-item a:after{
+				background: $subcolor;
+			}
+			a{
+				&:after{
+					background:none;
+				}
+				&:hover:after{
+					background: $subcolor;
+				}
+			}
+		}
+	}
+	ul{
+		background: rgba(255,255,255,0.95) !important;
+		width:16rem;
+		box-shadow:0 3px 3px #999;
+		right: calc(-8rem + 50%) !important;
+		border-radius:8px;
+		&::after{
+			border-bottom-color: rgba(255,255,255,0.95)  !important;
+			width:1.5rem;
+			right:0;
+			left:0;
+			margin:0 auto;
+		} 
+		li{
+			margin-left:0;
+			a{
+				padding:10px 15px 5px;
+			}
+		}
+	}
+	li.menu-item-has-children{
+		a {
+			padding-right: 0 !important;
+		}
+		ul{
+			a{
+				padding:10px 15px 5px !important;
+			}
+		}
+	}
+}
+
+.home .primary-menu{
+	justify-content:space-around;
+}
+
+#site-header{
+	.toggle {
+		max-height: 50px;
+		align-items: normal;
+		&:focus{
+			outline:none;
+		}
+	}
+}
+
+.button.toggle.close-nav-toggle:focus{
+		outline:1px solid $linkcolor !important;
+}
+
+.modal-menu{
+	li{
+		a {
+			color: $linkcolor;
+			&:focus{
+				outline:1px solid $linkcolor;
+			}
+		}
+		ul li a{
+			color: $linkcolor;
+		}
+	}
+}
+
+
+
+/* @end */
