@@ -527,6 +527,8 @@ td.tix-column-price {
     left: 50%;
     top: 0;
     transform: translateX(-50%); }
+  .footer-credits a:hover {
+    color: #f1fbff; }
 
 .footer-copyright {
   padding-top: 60px;
