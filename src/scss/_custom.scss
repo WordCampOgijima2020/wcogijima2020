@@ -358,3 +358,30 @@ th.tix-column-price {
 td.tix-column-price {
     text-align: center;
 }
+
+/* footer */
+.footer-credits {
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    &:before {
+        background: url('https://2020.ogijima.wordcamp.org/files/2020/08/wp_logo_w.png') no-repeat center center;
+        content: '';
+        width: 54px;
+        height: 54px;
+        background-size: contain;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+    }
+}
+
+.footer-copyright {
+    padding-top: 60px;
+    text-align: center;
+    margin: auto;
+}
+.powered-by-wordpress {
+}
