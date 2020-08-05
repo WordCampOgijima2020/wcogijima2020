@@ -338,3 +338,23 @@ label.tix-ticket-title {
     display: inline-block;
     color: #4e9aba;
 }
+input[type="submit"] {
+    background: #8de4dd;
+    color: #383838;
+    border-radius: 30px;
+    font-size: 1.6rem;
+    padding: 1em 4em;
+}
+input[type="submit"]:hover {
+    text-decoration: none;
+    background: #9af9f0;
+}
+
+th.tix-column-price {
+    min-width: 4em;
+    text-align: center;
+}
+
+td.tix-column-price {
+    text-align: center;
+}
