@@ -132,6 +132,208 @@ button,
 #wpadminbar:not(.mobile) .ab-top-menu li:hover a.ab-item span {
   color: #00b9eb; }
 
+.site-description {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  word-break: normal; }
+
+#site-header {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 60%, #FFFFFF 100%), url("https://2020.ogijima.wordcamp.org/files/2020/08/content_bg.png") no-repeat center top;
+  background-size: cover;
+  padding-bottom: 80px; }
+  @media print, screen and (min-width: 700px) {
+    #site-header {
+      padding-bottom: 80px; } }
+  @media print, screen and (min-width: 1000px) {
+    #site-header {
+      padding-bottom: 200px; } }
+
+.home #site-header {
+  background: url("https://2020.ogijima.wordcamp.org/files/2020/08/main_img_color.jpg") no-repeat center top;
+  background-size: cover;
+  padding-bottom: 600px; }
+  @media print, screen and (min-width: 700px) {
+    .home #site-header {
+      background: url("https://2020.ogijima.wordcamp.org/files/2020/08/main_img_color.jpg") no-repeat center top;
+      background-size: cover;
+      padding-bottom: 900px; } }
+
+.header-inner {
+  max-width: 120rem;
+  margin: 0 auto; }
+
+.header-titles-wrapper {
+  padding-right: 0; }
+
+.site-logo img {
+  max-height: 8rem;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  animation-duration: 45s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .2s;
+  animation-iteration-count: infinite;
+  animation-name: float_logo;
+  z-index: 1000; }
+  @media print, screen and (min-width: 700px) {
+    .site-logo img {
+      max-height: 10rem;
+      left: 5%; } }
+  @media print, screen and (min-width: 1000px) {
+    .site-logo img {
+      max-height: 12rem;
+      transform: rotate(-4deg);
+      left: 5%;
+      top: 15px; } }
+
+.home .site-logo img {
+  position: absolute;
+  top: 15px;
+  left: 10px; }
+  @media print, screen and (min-width: 700px) {
+    .home .site-logo img {
+      max-height: 15rem;
+      left: 5%; } }
+  @media print, screen and (min-width: 1000px) {
+    .home .site-logo img {
+      max-height: 18rem;
+      transform: rotate(-4deg);
+      left: 15%;
+      top: 95px; } }
+
+/* @group navigation */
+/* g_nav */
+.header-navigation-wrapper {
+  position: fixed;
+  top: 15px;
+  display: block;
+  left: 0;
+  right: 0;
+  max-width: 90rem;
+  padding: 15px 0 10px;
+  margin: 0 auto; }
+  @media print, screen and (min-width: 1000px) {
+    .header-navigation-wrapper {
+      background: rgba(243, 243, 243, 0.85);
+      border-radius: 20px; } }
+
+.home .header-navigation-wrapper {
+  position: absolute;
+  top: auto;
+  bottom: 30px; }
+
+.primary-menu-wrapper {
+  margin: 0 auto;
+  max-width: 70rem; }
+
+.primary-menu a:hover,
+.primary-menu a:focus,
+.primary-menu .current_page_ancestor {
+  text-decoration: none; }
+
+.primary-menu li.current-menu-item > a,
+.primary-menu li.current-menu-item > .link-icon-wrapper > a {
+  text-decoration: none; }
+
+.primary-menu li {
+  margin-left: 30px; }
+  .primary-menu li a {
+    color: #383838 !important;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold; }
+  .primary-menu li a:after {
+    content: "";
+    height: 5px;
+    display: block;
+    margin-top: 2px;
+    transition: all 0.3s ease; }
+  .primary-menu li a:hover:after {
+    background: #F7931E; }
+
+.primary-menu .icon {
+  display: none; }
+
+.primary-menu .icon::before,
+.primary-menu .icon::after {
+  content: none;
+  display: none; }
+
+.primary-menu li.current-menu-item a,
+.primary-menu li.current_page_ancestor a {
+  text-decoration: none; }
+  .primary-menu li.current-menu-item a:after,
+  .primary-menu li.current_page_ancestor a:after {
+    content: "";
+    height: 5px;
+    background: #F7931E;
+    display: block; }
+
+.primary-menu li.current-menu-item ul li.current-menu-item a:after,
+.primary-menu li.current_page_ancestor ul li.current-menu-item a:after {
+  background: #F7931E; }
+
+.primary-menu li.current-menu-item ul a:after,
+.primary-menu li.current_page_ancestor ul a:after {
+  background: none; }
+
+.primary-menu li.current-menu-item ul a:hover:after,
+.primary-menu li.current_page_ancestor ul a:hover:after {
+  background: #F7931E; }
+
+.primary-menu ul {
+  background: rgba(255, 255, 255, 0.95) !important;
+  width: 16rem;
+  box-shadow: 0 3px 3px #999;
+  right: calc(-8rem + 50%) !important;
+  border-radius: 8px; }
+  .primary-menu ul::after {
+    border-bottom-color: rgba(255, 255, 255, 0.95) !important;
+    width: 1.5rem;
+    right: 0;
+    left: 0;
+    margin: 0 auto; }
+  .primary-menu ul li {
+    margin-left: 0; }
+    .primary-menu ul li a {
+      padding: 10px 15px 5px; }
+
+.primary-menu li.menu-item-has-children a {
+  padding-right: 0 !important; }
+
+.primary-menu li.menu-item-has-children ul a {
+  padding: 10px 15px 5px !important; }
+
+.home .primary-menu {
+  justify-content: space-around; }
+
+#site-header .toggle {
+  max-height: 50px;
+  align-items: normal; }
+  #site-header .toggle:focus {
+    outline: none; }
+
+.button.toggle.close-nav-toggle:focus {
+  outline: 1px solid #0B697E !important; }
+
+.modal-menu li a {
+  color: #0B697E; }
+  .modal-menu li a:focus {
+    outline: 1px solid #0B697E; }
+
+.modal-menu li ul li a {
+  color: #0B697E; }
+
+/* @end */
 /* -------------------------------------------------------------------------- */
 /*	5. Menu Modal
 /* -------------------------------------------------------------------------- */
@@ -238,12 +440,95 @@ button,
 /* -------------------------------------------------------------------------- */
 /*	16. Site Footer
 /* -------------------------------------------------------------------------- */
+/* @group footer */
+/* footer */
 .footer-nav-widgets-wrapper,
 #site-footer {
-  background-color: #fff;
-  border-color: #dedfdf;
   border-style: solid;
   border-width: 0; }
+
+.footer-nav-widgets-wrapper {
+  margin-top: 0 !important;
+  border-color: #8DE4DD;
+  background: url(https://2020.ogijima.wordcamp.org/files/2020/08/boar.png) no-repeat bottom 20px left 40px;
+  background-size: 85px auto;
+  padding-bottom: 80px; }
+  @media print, screen and (min-width: 700px) {
+    .footer-nav-widgets-wrapper {
+      padding-bottom: 40px; } }
+  .footer-nav-widgets-wrapper .footer-widgets-outer-wrapper {
+    border-bottom: none; }
+  .footer-nav-widgets-wrapper .wcb_widget_sponsors {
+    padding: 3rem; }
+    .footer-nav-widgets-wrapper .wcb_widget_sponsors h2.widget-title {
+      line-height: 1.6;
+      font-size: 3rem;
+      font-weight: 900 !important;
+      letter-spacing: 1px;
+      position: relative;
+      color: #4E9ABA;
+      margin-bottom: 4rem; }
+      .footer-nav-widgets-wrapper .wcb_widget_sponsors h2.widget-title:before {
+        content: "スポンサー";
+        display: block;
+        position: absolute;
+        padding-top: 4.5rem;
+        font-style: normal;
+        font-size: 1.953rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: #383838; }
+      .footer-nav-widgets-wrapper .wcb_widget_sponsors h2.widget-title:after {
+        content: "";
+        display: block;
+        width: 40px;
+        height: 3px;
+        background: #F7931E;
+        margin-top: 5rem; }
+    .footer-nav-widgets-wrapper .wcb_widget_sponsors a {
+      display: block;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 30px;
+      padding: 40px;
+      text-align: center; }
+      .footer-nav-widgets-wrapper .wcb_widget_sponsors a img {
+        max-width: 80%;
+        display: block;
+        margin: 0 auto; }
+  .footer-nav-widgets-wrapper .wcb_widget_sponsors .sponsor-logo {
+    display: block !important; }
+  @media print, screen and (min-width: 700px) {
+    .footer-nav-widgets-wrapper .footer-inner {
+      max-width: 90rem; }
+    .footer-nav-widgets-wrapper .footer-widgets.column-one {
+      width: 100%; }
+      .footer-nav-widgets-wrapper .footer-widgets.column-one .wcb_widget_sponsors {
+        padding: 0; }
+        .footer-nav-widgets-wrapper .footer-widgets.column-one .wcb_widget_sponsors .sponsor-level {
+          display: flex;
+          position: relative;
+          padding-top: 35px;
+          justify-content: space-between; }
+          .footer-nav-widgets-wrapper .footer-widgets.column-one .wcb_widget_sponsors .sponsor-level h4 {
+            position: absolute;
+            top: 0;
+            font-size: 1.6rem; } }
+        @media print, screen and (min-width: 700px) and (min-width: 700px) {
+          .footer-nav-widgets-wrapper .footer-widgets.column-one .wcb_widget_sponsors .sponsor-level h4 {
+            font-size: 1.8rem !important; } }
+        @media print, screen and (min-width: 700px) and (min-width: 1220px) {
+          .footer-nav-widgets-wrapper .footer-widgets.column-one .wcb_widget_sponsors .sponsor-level h4 {
+            font-size: 2rem !important; } }
+  @media print, screen and (min-width: 700px) {
+          .footer-nav-widgets-wrapper .footer-widgets.column-one .wcb_widget_sponsors .sponsor-level a {
+            width: 48%; } }
+
+#site-footer {
+  background: linear-gradient(rgba(78, 154, 186, 0.8), rgba(78, 154, 186, 0.8)), url(https://2020.ogijima.wordcamp.org/files/2020/08/footer_bg.png);
+  border-top: none;
+  padding: 25px 0; }
 
 .footer-credits {
   display: block;
@@ -271,6 +556,38 @@ button,
 .powered-by-wordpress {
   color: #3c434a; }
 
+a.to-the-top {
+  position: fixed;
+  bottom: 20px;
+  right: -10px;
+  display: block;
+  background: url("https://2020.ogijima.wordcamp.org/files/2020/08/seagull_color.png") no-repeat center center;
+  background-size: contain;
+  width: 137px;
+  height: 150px;
+  z-index: 1000;
+  transform: scale(1) rotate(0);
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-name: float_img; }
+  a.to-the-top:hover {
+    animation: none;
+    transform: rotate(2deg); }
+  @media print, screen and (min-width: 700px) {
+    a.to-the-top {
+      width: 275px;
+      height: 300px;
+      right: -50px; } }
+
+.showing-modal a.to-the-top {
+  display: none; }
+
+/* @end */
 /* -------------------------------------------------------------------------- */
 /*	17. Media Queries
 /* -------------------------------------------------------------------------- */
@@ -786,341 +1103,6 @@ ul.wp-block-latest-posts li {
         float: left;
         max-width: 26rem; } }
 
-/* @end */
-/* @group header */
-/* header */
-.site-description {
-  border: 0;
-  clip: rect(1px, 1px, 1px, 1px);
-  clip-path: inset(50%);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute !important;
-  width: 1px;
-  word-wrap: normal !important;
-  word-break: normal; }
-
-#site-header {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 60%, #FFFFFF 100%), url("https://2020.ogijima.wordcamp.org/files/2020/08/content_bg.png") no-repeat center top;
-  background-size: cover;
-  padding-bottom: 80px; }
-  @media print, screen and (min-width: 700px) {
-    #site-header {
-      padding-bottom: 80px; } }
-  @media print, screen and (min-width: 1000px) {
-    #site-header {
-      padding-bottom: 200px; } }
-
-.home #site-header {
-  background: url("https://2020.ogijima.wordcamp.org/files/2020/08/main_img_color.jpg") no-repeat center top;
-  background-size: cover;
-  padding-bottom: 600px; }
-  @media print, screen and (min-width: 700px) {
-    .home #site-header {
-      background: url("https://2020.ogijima.wordcamp.org/files/2020/08/main_img_color.jpg") no-repeat center top;
-      background-size: cover;
-      padding-bottom: 900px; } }
-
-.header-inner {
-  max-width: 120rem;
-  margin: 0 auto; }
-
-.header-titles-wrapper {
-  padding-right: 0; }
-
-.site-logo img {
-  max-height: 8rem;
-  position: fixed;
-  top: 15px;
-  left: 15px;
-  animation-duration: 45s;
-  animation-timing-function: ease-in-out;
-  animation-delay: .2s;
-  animation-iteration-count: infinite;
-  animation-name: float_logo;
-  z-index: 1000; }
-  @media print, screen and (min-width: 700px) {
-    .site-logo img {
-      max-height: 10rem;
-      left: 5%; } }
-  @media print, screen and (min-width: 1000px) {
-    .site-logo img {
-      max-height: 12rem;
-      transform: rotate(-4deg);
-      left: 5%;
-      top: 15px; } }
-
-.home .site-logo img {
-  position: absolute;
-  top: 15px;
-  left: 10px; }
-  @media print, screen and (min-width: 700px) {
-    .home .site-logo img {
-      max-height: 15rem;
-      left: 5%; } }
-  @media print, screen and (min-width: 1000px) {
-    .home .site-logo img {
-      max-height: 18rem;
-      transform: rotate(-4deg);
-      left: 15%;
-      top: 95px; } }
-
-/* @end */
-/* @group navigation */
-/* g_nav */
-.header-navigation-wrapper {
-  position: fixed;
-  top: 15px;
-  display: block;
-  left: 0;
-  right: 0;
-  max-width: 90rem;
-  padding: 15px 0 10px;
-  margin: 0 auto; }
-  @media print, screen and (min-width: 1000px) {
-    .header-navigation-wrapper {
-      background: rgba(243, 243, 243, 0.85);
-      border-radius: 20px; } }
-
-.home .header-navigation-wrapper {
-  position: absolute;
-  top: auto;
-  bottom: 30px; }
-
-.primary-menu-wrapper {
-  margin: 0 auto;
-  max-width: 70rem; }
-
-.primary-menu a:hover,
-.primary-menu a:focus,
-.primary-menu .current_page_ancestor {
-  text-decoration: none; }
-
-.primary-menu li.current-menu-item > a,
-.primary-menu li.current-menu-item > .link-icon-wrapper > a {
-  text-decoration: none; }
-
-.primary-menu li {
-  margin-left: 30px; }
-  .primary-menu li a {
-    color: #383838 !important;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: bold; }
-  .primary-menu li a:after {
-    content: "";
-    height: 5px;
-    display: block;
-    margin-top: 2px;
-    transition: all 0.3s ease; }
-  .primary-menu li a:hover:after {
-    background: #F7931E; }
-
-.primary-menu .icon {
-  display: none; }
-
-.primary-menu .icon::before,
-.primary-menu .icon::after {
-  content: none;
-  display: none; }
-
-.primary-menu li.current-menu-item a,
-.primary-menu li.current_page_ancestor a {
-  text-decoration: none; }
-  .primary-menu li.current-menu-item a:after,
-  .primary-menu li.current_page_ancestor a:after {
-    content: "";
-    height: 5px;
-    background: #F7931E;
-    display: block; }
-
-.primary-menu li.current-menu-item ul li.current-menu-item a:after,
-.primary-menu li.current_page_ancestor ul li.current-menu-item a:after {
-  background: #F7931E; }
-
-.primary-menu li.current-menu-item ul a:after,
-.primary-menu li.current_page_ancestor ul a:after {
-  background: none; }
-
-.primary-menu li.current-menu-item ul a:hover:after,
-.primary-menu li.current_page_ancestor ul a:hover:after {
-  background: #F7931E; }
-
-.primary-menu ul {
-  background: rgba(255, 255, 255, 0.95) !important;
-  width: 16rem;
-  box-shadow: 0 3px 3px #999;
-  right: calc(-8rem + 50%) !important;
-  border-radius: 8px; }
-  .primary-menu ul::after {
-    border-bottom-color: rgba(255, 255, 255, 0.95) !important;
-    width: 1.5rem;
-    right: 0;
-    left: 0;
-    margin: 0 auto; }
-  .primary-menu ul li {
-    margin-left: 0; }
-    .primary-menu ul li a {
-      padding: 10px 15px 5px; }
-
-.primary-menu li.menu-item-has-children a {
-  padding-right: 0 !important; }
-
-.primary-menu li.menu-item-has-children ul a {
-  padding: 10px 15px 5px !important; }
-
-.home .primary-menu {
-  justify-content: space-around; }
-
-#site-header .toggle {
-  max-height: 50px;
-  align-items: normal; }
-  #site-header .toggle:focus {
-    outline: none; }
-
-.button.toggle.close-nav-toggle:focus {
-  outline: 1px solid #0B697E !important; }
-
-.modal-menu li a {
-  color: #0B697E; }
-  .modal-menu li a:focus {
-    outline: 1px solid #0B697E; }
-
-.modal-menu li ul li a {
-  color: #0B697E; }
-
-/* @end */
-/* @group footer */
-/* footer */
-.footer-nav-widgets-wrapper {
-  margin-top: 0 !important;
-  border-color: #8DE4DD;
-  background: url(https://2020.ogijima.wordcamp.org/files/2020/08/boar.png) no-repeat bottom 20px left 40px;
-  background-size: 85px auto;
-  padding-bottom: 80px; }
-  @media print, screen and (min-width: 700px) {
-    .footer-nav-widgets-wrapper {
-      padding-bottom: 40px; } }
-  .footer-nav-widgets-wrapper .footer-widgets-outer-wrapper {
-    border-bottom: none; }
-  .footer-nav-widgets-wrapper .wcb_widget_sponsors {
-    padding: 3rem; }
-    .footer-nav-widgets-wrapper .wcb_widget_sponsors h2.widget-title {
-      line-height: 1.6;
-      font-size: 3rem;
-      font-weight: 900 !important;
-      letter-spacing: 1px;
-      position: relative;
-      color: #4E9ABA;
-      margin-bottom: 4rem; }
-      .footer-nav-widgets-wrapper .wcb_widget_sponsors h2.widget-title:before {
-        content: "スポンサー";
-        display: block;
-        position: absolute;
-        padding-top: 4.5rem;
-        font-style: normal;
-        font-size: 1.953rem;
-        font-weight: 700;
-        letter-spacing: 1px;
-        color: #383838; }
-      .footer-nav-widgets-wrapper .wcb_widget_sponsors h2.widget-title:after {
-        content: "";
-        display: block;
-        width: 40px;
-        height: 3px;
-        background: #F7931E;
-        margin-top: 5rem; }
-    .footer-nav-widgets-wrapper .wcb_widget_sponsors a {
-      display: block;
-      box-sizing: border-box;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      margin-bottom: 30px;
-      padding: 40px;
-      text-align: center; }
-      .footer-nav-widgets-wrapper .wcb_widget_sponsors a img {
-        max-width: 80%;
-        display: block;
-        margin: 0 auto; }
-  .footer-nav-widgets-wrapper .wcb_widget_sponsors .sponsor-logo {
-    display: block !important; }
-  @media print, screen and (min-width: 700px) {
-    .footer-nav-widgets-wrapper .footer-inner {
-      max-width: 90rem; }
-    .footer-nav-widgets-wrapper .footer-widgets.column-one {
-      width: 100%; }
-      .footer-nav-widgets-wrapper .footer-widgets.column-one .wcb_widget_sponsors {
-        padding: 0; }
-        .footer-nav-widgets-wrapper .footer-widgets.column-one .wcb_widget_sponsors .sponsor-level {
-          display: flex;
-          position: relative;
-          padding-top: 35px;
-          justify-content: space-between; }
-          .footer-nav-widgets-wrapper .footer-widgets.column-one .wcb_widget_sponsors .sponsor-level h4 {
-            position: absolute;
-            top: 0;
-            font-size: 1.6rem; } }
-        @media print, screen and (min-width: 700px) and (min-width: 700px) {
-          .footer-nav-widgets-wrapper .footer-widgets.column-one .wcb_widget_sponsors .sponsor-level h4 {
-            font-size: 1.8rem !important; } }
-        @media print, screen and (min-width: 700px) and (min-width: 1220px) {
-          .footer-nav-widgets-wrapper .footer-widgets.column-one .wcb_widget_sponsors .sponsor-level h4 {
-            font-size: 2rem !important; } }
-  @media print, screen and (min-width: 700px) {
-          .footer-nav-widgets-wrapper .footer-widgets.column-one .wcb_widget_sponsors .sponsor-level a {
-            width: 48%; } }
-
-#site-footer {
-  background: linear-gradient(rgba(78, 154, 186, 0.8), rgba(78, 154, 186, 0.8)), url(https://2020.ogijima.wordcamp.org/files/2020/08/footer_bg.png);
-  border-top: none;
-  padding: 25px 0; }
-
-/*
-.footer-credits {
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	background: url('https://2020.ogijima.wordcamp.org/files/2020/08/wp_logo_w.png') no-repeat center center;
-	width: 54px;
-	height: 54px;
-	background-size: contain;
-	margin: 0 auto;
-}
-*/
-a.to-the-top {
-  position: fixed;
-  bottom: 20px;
-  right: -10px;
-  display: block;
-  background: url("https://2020.ogijima.wordcamp.org/files/2020/08/seagull_color.png") no-repeat center center;
-  background-size: contain;
-  width: 137px;
-  height: 150px;
-  z-index: 1000;
-  transform: scale(1) rotate(0);
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  animation-duration: 5s;
-  animation-timing-function: ease-in-out;
-  animation-delay: .5s;
-  animation-iteration-count: infinite;
-  animation-name: float_img; }
-  a.to-the-top:hover {
-    animation: none;
-    transform: rotate(2deg); }
-  @media print, screen and (min-width: 700px) {
-    a.to-the-top {
-      width: 275px;
-      height: 300px;
-      right: -50px; } }
-
-.showing-modal a.to-the-top {
-  display: none; }
-
-/* @end */
 /* @group front page */
 /* front page (.home) */
 .home figure.featured-media,
