@@ -8,7 +8,7 @@ add_action( 'wp_enqueue_scripts', function() {
 function mytheme_admin_bar() {
 	echo '<style type="text/css">
 	#wpadminbar {
-		background: #eb8f22;
+		background: #738e96;
 	}
 	</style>';
 }
