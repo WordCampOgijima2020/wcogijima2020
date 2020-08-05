@@ -543,7 +543,8 @@ td.tix-column-price {
   height: 80px; }
 
 #tix-attendees .tix-field {
-  margin-left: 100px; }
+  margin-left: 100px;
+  padding-top: 0.2em; }
 
 /* -------------------------------------------------------------------------- */
 /*	UTILITY STYLES
