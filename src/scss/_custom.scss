@@ -268,13 +268,12 @@ td.tix-column-price {
         padding: 5px;
     }
     .wp-block-media-text__content {
-        border: 1px solid #ccc;
-        border:2px solid #4e9aba;
+        border:2px solid;
         border-radius: 20px;
         position: relative;
         &:after,
         &:before{
-            border: solid rgba(255, 255, 255, 0);
+            border: solid transparent;
             content:'';
             height:0;
             width:0;
@@ -297,35 +296,39 @@ td.tix-column-price {
         }
     }
 }
+$left_media_border_color: #e9bd8b;
+$right_media_border_color: #a2d1e6;
 .fukidashi-left-media {
     .wp-block-media-text__content {
+        border-color: $left_media_border_color;
         margin-left: 2em;
         &:after,
         &:before{
             right:100%;
         }
         &:after{
-            border-right-color:#FFFFFF;
+            border-right-color:#fff;
         }
         &:before{
             margin-right: 2px;
-            border-right-color:#4e9aba;
+            border-right-color: $left_media_border_color;
         }
     }
 }
 .fukidashi-right-media {
     .wp-block-media-text__content {
+        border-color: $right_media_border_color;
         margin-right: 2em;
         &:after,
         &:before{
             left:100%;
         }
         &:after{
-            border-left-color:#FFFFFF;
+            border-left-color:#fff;
         }
         &:before{
             margin-left: 2px;
-            border-left-color:#4e9aba;
+            border-left-color: $right_media_border_color;
         }
     }
 }
