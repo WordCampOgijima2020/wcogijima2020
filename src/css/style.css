@@ -210,6 +210,9 @@ button,
       left: 15%;
       top: 95px; } }
 
+/* -------------------------------------------------------------------------- */
+/*	5. Menu Modal
+/* -------------------------------------------------------------------------- */
 /* @group navigation */
 /* g_nav */
 .header-navigation-wrapper {
@@ -334,9 +337,6 @@ button,
   color: #0B697E; }
 
 /* @end */
-/* -------------------------------------------------------------------------- */
-/*	5. Menu Modal
-/* -------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------- */
 /*	11. Entry Content
 /* -------------------------------------------------------------------------- */
@@ -838,26 +838,56 @@ td.tix-column-price {
 .fukidashi-right-media .wp-block-media-text__content,
 .fukidashi .wp-block-media-text__content {
   border: 1px solid #ccc;
+  border: 2px solid #4e9aba;
   border-radius: 20px;
   position: relative; }
+  .fukidashi-left-media .wp-block-media-text__content:after, .fukidashi-left-media .wp-block-media-text__content:before,
+  .fukidashi-right-media .wp-block-media-text__content:after,
+  .fukidashi-right-media .wp-block-media-text__content:before,
+  .fukidashi .wp-block-media-text__content:after,
+  .fukidashi .wp-block-media-text__content:before {
+    border: solid rgba(255, 255, 255, 0);
+    content: '';
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 50%; }
   .fukidashi-left-media .wp-block-media-text__content:after,
   .fukidashi-right-media .wp-block-media-text__content:after,
   .fukidashi .wp-block-media-text__content:after {
-    color: #ccc;
-    content: '○。';
-    position: absolute;
-    top: 30%; }
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    margin-top: -5px; }
+  .fukidashi-left-media .wp-block-media-text__content:before,
+  .fukidashi-right-media .wp-block-media-text__content:before,
+  .fukidashi .wp-block-media-text__content:before {
+    border-top-width: 7px;
+    border-bottom-width: 7px;
+    border-left-width: 14px;
+    border-right-width: 14px;
+    margin-top: -7px; }
 
 .fukidashi-left-media .wp-block-media-text__content {
   margin-left: 2em; }
+  .fukidashi-left-media .wp-block-media-text__content:after, .fukidashi-left-media .wp-block-media-text__content:before {
+    right: 100%; }
   .fukidashi-left-media .wp-block-media-text__content:after {
-    left: -2.2em;
-    transform: rotate(120deg); }
+    border-right-color: #FFFFFF; }
+  .fukidashi-left-media .wp-block-media-text__content:before {
+    margin-right: 2px;
+    border-right-color: #4e9aba; }
 
 .fukidashi-right-media .wp-block-media-text__content {
   margin-right: 2em; }
+  .fukidashi-right-media .wp-block-media-text__content:after, .fukidashi-right-media .wp-block-media-text__content:before {
+    left: 100%; }
   .fukidashi-right-media .wp-block-media-text__content:after {
-    right: -2.2em; }
+    border-left-color: #FFFFFF; }
+  .fukidashi-right-media .wp-block-media-text__content:before {
+    margin-left: 2px;
+    border-left-color: #4e9aba; }
 
 /* base */
 .entry-header,
