@@ -858,6 +858,11 @@ td.tix-column-price {
     border-right-width: 14px;
     margin-top: -7px; }
 
+@media print, screen and (min-width: 700px) {
+  .fukidashi-left-media .wp-block-media-text__content,
+  .fukidashi-right-media .wp-block-media-text__content {
+    padding: 3rem 2rem; } }
+
 .fukidashi-left-media .wp-block-media-text__content {
   border-color: #e9bd8b;
   margin-left: 2em; }
