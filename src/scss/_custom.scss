@@ -260,8 +260,6 @@ td.tix-column-price {
 }
 
 /* fukidashi */
-.fukidashi-left-media,
-.fukidashi-right-media,
 .fukidashi {
 	img {
 		border-radius: 30px;
@@ -271,6 +269,9 @@ td.tix-column-price {
 		border:2px solid;
 		border-radius: 20px;
 		position: relative;
+		@include min($bp) {
+			padding: 3rem 2rem;
+		}
 		&:after,
 		&:before{
 			border: solid transparent;
@@ -302,9 +303,6 @@ $right_media_border_color: #a2d1e6;
 	.wp-block-media-text__content {
 		border-color: $left_media_border_color;
 		margin-left: 2em;
-		@include min($bp){
-			padding: 3rem 2rem;
-		}
 		&:after,
 		&:before{
 			right:100%;
