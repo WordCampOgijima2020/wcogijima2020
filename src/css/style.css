@@ -1036,12 +1036,13 @@ h3.sd-title {
 .entry-categories-inner {
   justify-content: flex-end; }
   .entry-categories-inner a {
-    display: inline-block !important;
     background: #0B697E;
-    padding: 5px 15px;
     border: none;
+    border-radius: 3px;
     color: #fff !important;
-    border-radius: 3px; }
+    display: inline-block !important;
+    font-size: 1.2rem;
+    padding: 5px 15px; }
     .entry-categories-inner a:hover {
       opacity: 0.7; }
 
