@@ -354,7 +354,7 @@ h2.entry-title {
 		font-size: 3rem !important;
 	}
 	@include min(1220px){
-		font-size: 3.4rem !important;
+		//font-size: 3.4rem !important;
 	}
 }
 
@@ -379,7 +379,7 @@ h2.entry-title {
 			font-size: 1.953rem;
 			font-weight: 700;
 			letter-spacing: 1px;
-		}
+	}
 }
 
 h3.sd-title {
@@ -394,7 +394,7 @@ h3.sd-title {
 			font-size: 3rem !important;
 		}
 		@include min(1220px){
-			font-size: 3.4rem !important;
+			//font-size: 3.4rem !important;
 		}
 	}
 	h3{
