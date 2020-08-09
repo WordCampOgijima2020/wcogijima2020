@@ -1191,6 +1191,14 @@ ul.wp-block-latest-posts li {
     .page-slug-attendees ul.tix-attendee-list.tix-columns-3 li {
       width: 100% !important; } }
 
+/* session */
+.single-wcb_session .post-meta-wrapper {
+  display: none; }
+
+.single-wcb_session .entry-content {
+  max-width: 90rem;
+  width: calc(100% - 4rem); }
+
 /* -------------------------------------------------------------------------- */
 /*	UTILITY STYLES
 /* -------------------------------------------------------------------------- */
