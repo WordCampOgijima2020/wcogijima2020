@@ -765,3 +765,14 @@ ul.wp-block-latest-posts {
 		}
 	}
 }
+
+/* session */
+.single-wcb_session {
+	.post-meta-wrapper {
+		display: none;
+	}
+	.entry-content {
+		max-width: 90rem;
+		width: calc(100% - 4rem);
+	}
+}
