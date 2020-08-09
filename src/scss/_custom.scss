@@ -772,7 +772,14 @@ ul.wp-block-latest-posts {
 		display: none;
 	}
 	.entry-content {
+		margin: auto;
 		max-width: 90rem;
 		width: calc(100% - 4rem);
+	}
+	#session-speaker-names {
+		display: flex;
+	}
+	span.session-categories-links {
+		margin-left: 2rem;
 	}
 }
