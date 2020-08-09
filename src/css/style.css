@@ -1212,7 +1212,8 @@ ul.wp-block-latest-posts li {
     color: #fff !important;
     display: inline-block !important;
     font-size: 1.2rem;
-    padding: 5px 15px; }
+    padding: 5px 15px;
+    text-decoration: none; }
     .single-wcb_session span.session-categories-links a:hover {
       opacity: .7; }
 
