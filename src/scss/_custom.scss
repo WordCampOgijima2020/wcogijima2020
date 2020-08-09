@@ -781,5 +781,17 @@ ul.wp-block-latest-posts {
 	}
 	span.session-categories-links {
 		margin-left: 2rem;
+		a {
+			background: #0B697E;
+			border: none;
+			border-radius: 3px;
+			color: #fff !important;
+			display: inline-block !important;
+			font-size: 1.2rem;
+			padding: 5px 15px;
+			&:hover {
+				opacity: .7;
+			}
+		}
 	}
 }
