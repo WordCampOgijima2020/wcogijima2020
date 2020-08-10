@@ -1279,30 +1279,41 @@ ul.wp-block-latest-posts li {
   background: #4e9aba;
   border: none;
   color: #fff;
-  left: 100px;
+  left: 12px;
   padding-top: 0;
   right: auto;
   text-decoration: none;
   width: 8em !important; }
+  @media print, screen and (min-width: 700px) {
+    .page.page-id-7.page-slug-schedule a.show-email-form {
+      left: 100px; } }
   .page.page-id-7.page-slug-schedule a.show-email-form .dashicons-star-filled {
     display: none; }
   .page.page-id-7.page-slug-schedule a.show-email-form .dashicons-email-alt:before {
     color: #fff;
     content: 'お気に入りを保存する';
-    font-size: 12px;
-    letter-spacing: 0;
-    width: 12em !important;
+    font-size: 1.1rem;
+    width: 12rem !important;
     display: inline-block; }
 
 .page.page-id-7.page-slug-schedule .email-form {
-  left: 100px;
+  left: 12px;
   right: auto;
   width: 35rem !important;
   max-width: 35rem !important; }
+  @media print, screen and (min-width: 700px) {
+    .page.page-id-7.page-slug-schedule .email-form {
+      left: 100px; } }
 
 .page.page-id-7.page-slug-schedule .email-form.fav-session-email-form-show {
   width: 35rem !important;
   max-width: 35rem !important; }
+
+.page.page-id-7.page-slug-schedule .fav-session-share-tab div.active {
+  background: #f0f8ff; }
+
+.page.page-id-7.page-slug-schedule .fav-session-share-tabcontent {
+  background: #f0f8ff; }
 
 /* -------------------------------------------------------------------------- */
 /*	UTILITY STYLES
