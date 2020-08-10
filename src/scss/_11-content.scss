@@ -56,6 +56,26 @@
 		flex-wrap: wrap;
 	}
 }
+.entry-content {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		&.wapuu {
+			&:before {
+				background: url('https://2020.ogijima.wordcamp.org/files/2020/08/meon-wapuu-300x223.jpg') no-repaet center center;
+				background-size: contain;
+				content: '';
+				display: inline-block;
+				height: 1em;
+				margin-left: 0.5em;
+				width: 1em;
+			}
+		}
+	}
+}
 
 @supports ( font-variation-settings: normal ) {
 	.entry-content {
