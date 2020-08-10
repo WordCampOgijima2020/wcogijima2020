@@ -1291,7 +1291,7 @@ ul.wp-block-latest-posts li {
     content: 'お気に入りを保存する';
     font-size: 12px;
     letter-spacing: 0;
-    width: 8em !important;
+    width: 12em !important;
     display: inline-block; }
 
 .page.page-id-7.page-slug-schedule .email-form {
