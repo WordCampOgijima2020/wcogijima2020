@@ -319,6 +319,12 @@ button,
 .home .primary-menu {
   justify-content: space-around; }
 
+.primary-menu ul {
+  display: none; }
+
+.primary-menu li.menu-item-has-children:hover > ul {
+  display: block; }
+
 #site-header .toggle {
   max-height: 50px;
   align-items: normal; }
