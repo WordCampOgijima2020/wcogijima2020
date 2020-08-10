@@ -804,4 +804,8 @@ ul.wp-block-latest-posts {
 #session-speaker-names,
 #speaker-session-names {
 	margin: auto;
+	em {
+		font-style: normal;
+		font-size: 0.85em;
+	}
 }
