@@ -34,7 +34,7 @@ body {
 /* -------------------------------------------------------------------------- */
 /*	2. Element Base
 /* ---------------------------------------------*---------------------------- */
-* {
+body {
   color: #383838;
   letter-spacing: 0; }
 
@@ -1262,7 +1262,8 @@ ul.wp-block-latest-posts li {
   #session-speaker-names em,
   #speaker-session-names em {
     font-style: normal;
-    font-size: 0.85em; }
+    font-size: 0.85em;
+    margin: 0 .5em; }
 
 /* -------------------------------------------------------------------------- */
 /*	UTILITY STYLES
