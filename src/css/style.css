@@ -1286,7 +1286,7 @@ ul.wp-block-latest-posts li {
   width: 8em !important; }
   .page.page-id-7.page-slug-schedule a.show-email-form .dashicons-star-filled {
     display: none; }
-  .page.page-id-7.page-slug-schedule a.show-email-form .dashicons-email-alt :before {
+  .page.page-id-7.page-slug-schedule a.show-email-form .dashicons-email-alt:before {
     color: #fff;
     content: 'お気に入りを保存する';
     font-size: 12px;
