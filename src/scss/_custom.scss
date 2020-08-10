@@ -810,3 +810,18 @@ ul.wp-block-latest-posts {
 		margin: 0 .5em;
 	}
 }
+
+/* schedule */
+.page.page-id-7.page-slug-schedule {
+	a.show-email-form {
+		width: 3em!important;
+		right: auto;
+		left: 100px;
+	}
+	.email-form.fav-session-email-form-show {
+		width: 35rem!important;
+		max-width: 35rem!important;
+		right: auto;
+		left: 100px;
+	}
+}
