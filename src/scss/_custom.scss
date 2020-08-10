@@ -834,15 +834,16 @@ ul.wp-block-latest-posts {
 			left: 100px;
 		}
 		.dashicons-star-filled {
-			display: none;
+			padding-top: 5px;
 		}
 		.dashicons-email-alt {
 			&:before {
 				color: #fff;
 				content: 'お気に入りを保存する';
+				display: block;
 				font-size: 1.1rem;
-				width: 12rem!important;
-				display: inline-block;
+				padding-top: 6px;
+				width: 11rem !important;
 			}
 		}
 	}
