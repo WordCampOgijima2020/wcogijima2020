@@ -383,19 +383,28 @@ button,
   display: flex;
   flex-wrap: wrap; }
 
-.entry-content h1.wapuu:before,
-.entry-content h2.wapuu:before,
-.entry-content h3.wapuu:before,
-.entry-content h4.wapuu:before,
-.entry-content h5.wapuu:before,
-.entry-content h6.wapuu:before {
-  background: url("../images/wcogijima2020-icon-150.png") no-repaet center center;
-  background-size: contain;
-  content: '';
-  display: inline-block;
-  height: 1em;
-  margin-left: 0.5em;
-  width: 1em; }
+.entry-content h1.wapuu,
+.entry-content h2.wapuu,
+.entry-content h3.wapuu,
+.entry-content h4.wapuu,
+.entry-content h5.wapuu,
+.entry-content h6.wapuu {
+  align-items: center;
+  display: flex; }
+  .entry-content h1.wapuu:before,
+  .entry-content h2.wapuu:before,
+  .entry-content h3.wapuu:before,
+  .entry-content h4.wapuu:before,
+  .entry-content h5.wapuu:before,
+  .entry-content h6.wapuu:before {
+    background: url("https://2020.ogijima.wordcamp.org/files/2020/08/wcogijima2020-icon-150.png") center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '';
+    display: inline-block;
+    height: 2em;
+    margin-right: 0.5em;
+    width: 2em; }
 
 @supports (font-variation-settings: normal) {
   .entry-content h1,
