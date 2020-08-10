@@ -240,86 +240,74 @@ button,
   margin: 0 auto;
   max-width: 70rem; }
 
-.primary-menu a:hover,
-.primary-menu a:focus,
-.primary-menu .current_page_ancestor {
-  text-decoration: none; }
-
-.primary-menu li.current-menu-item > a,
-.primary-menu li.current-menu-item > .link-icon-wrapper > a {
-  text-decoration: none; }
-
-.primary-menu li {
-  margin-left: 30px; }
-  .primary-menu li a {
-    color: #383838 !important;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: bold; }
-  .primary-menu li a:after {
-    content: "";
-    height: 5px;
-    display: block;
-    margin-top: 2px;
-    transition: all 0.3s ease; }
-  .primary-menu li a:hover:after {
-    background: #F7931E; }
-
-.primary-menu .icon {
-  display: none; }
-
-.primary-menu .icon::before,
-.primary-menu .icon::after {
-  content: none;
-  display: none; }
-
-.primary-menu li.current-menu-item a,
-.primary-menu li.current_page_ancestor a {
-  text-decoration: none; }
-  .primary-menu li.current-menu-item a:after,
-  .primary-menu li.current_page_ancestor a:after {
-    content: "";
-    height: 5px;
-    background: #F7931E;
-    display: block; }
-
-.primary-menu li.current-menu-item ul li.current-menu-item a:after,
-.primary-menu li.current_page_ancestor ul li.current-menu-item a:after {
-  background: #F7931E; }
-
-.primary-menu li.current-menu-item ul a:after,
-.primary-menu li.current_page_ancestor ul a:after {
-  background: none; }
-
-.primary-menu li.current-menu-item ul a:hover:after,
-.primary-menu li.current_page_ancestor ul a:hover:after {
-  background: #F7931E; }
-
-.primary-menu ul {
-  background: rgba(255, 255, 255, 0.95) !important;
-  width: 16rem;
-  box-shadow: 0 3px 3px #999;
-  right: calc(-8rem + 50%) !important;
-  border-radius: 8px; }
-  .primary-menu ul::after {
-    border-bottom-color: rgba(255, 255, 255, 0.95) !important;
-    width: 1.5rem;
-    right: 0;
-    left: 0;
-    margin: 0 auto; }
-  .primary-menu ul li {
-    margin-left: 0; }
-    .primary-menu ul li a {
-      padding: 10px 15px 5px; }
-
-.primary-menu li.menu-item-has-children a {
-  padding-right: 0 !important; }
-
-.primary-menu li.menu-item-has-children ul a {
-  padding: 10px 15px 5px !important; }
-
-.home .primary-menu {
+.primary-menu {
   justify-content: space-around; }
+  .primary-menu a:hover,
+  .primary-menu a:focus,
+  .primary-menu .current_page_ancestor {
+    text-decoration: none; }
+  .primary-menu li.current-menu-item > a,
+  .primary-menu li.current-menu-item > .link-icon-wrapper > a {
+    text-decoration: none; }
+  .primary-menu li {
+    margin-left: 30px; }
+    .primary-menu li a {
+      color: #383838 !important;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: bold; }
+    .primary-menu li a:after {
+      content: "";
+      height: 5px;
+      display: block;
+      margin-top: 2px;
+      transition: all 0.3s ease; }
+    .primary-menu li a:hover:after {
+      background: #F7931E; }
+  .primary-menu .icon {
+    display: none; }
+  .primary-menu .icon::before,
+  .primary-menu .icon::after {
+    content: none;
+    display: none; }
+  .primary-menu li.current-menu-item a,
+  .primary-menu li.current_page_ancestor a {
+    text-decoration: none; }
+    .primary-menu li.current-menu-item a:after,
+    .primary-menu li.current_page_ancestor a:after {
+      content: "";
+      height: 5px;
+      background: #F7931E;
+      display: block; }
+  .primary-menu li.current-menu-item ul li.current-menu-item a:after,
+  .primary-menu li.current_page_ancestor ul li.current-menu-item a:after {
+    background: #F7931E; }
+  .primary-menu li.current-menu-item ul a:after,
+  .primary-menu li.current_page_ancestor ul a:after {
+    background: none; }
+  .primary-menu li.current-menu-item ul a:hover:after,
+  .primary-menu li.current_page_ancestor ul a:hover:after {
+    background: #F7931E; }
+  .primary-menu ul {
+    background: rgba(255, 255, 255, 0.95) !important;
+    width: 16rem;
+    box-shadow: 0 3px 3px #999;
+    right: calc(-8rem + 50%) !important;
+    border-radius: 8px; }
+    .primary-menu ul::after {
+      border-bottom-color: rgba(255, 255, 255, 0.95) !important;
+      width: 1.5rem;
+      right: 0;
+      left: 0;
+      margin: 0 auto; }
+    .primary-menu ul li {
+      margin-left: 0; }
+      .primary-menu ul li a {
+        padding: 10px 15px 5px; }
+  .primary-menu li.menu-item-has-children a {
+    padding-right: 0 !important; }
+  .primary-menu li.menu-item-has-children ul a {
+    padding: 10px 15px 5px !important; }
 
 .primary-menu ul {
   display: none; }
