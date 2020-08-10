@@ -64,14 +64,17 @@
 	h5,
 	h6 {
 		&.wapuu {
+			align-items: center;
+			display: flex;
 			&:before {
-				background: url('../images/wcogijima2020-icon-150.png') no-repaet center center;
+				background: url('https://2020.ogijima.wordcamp.org/files/2020/08/wcogijima2020-icon-150.png') center center;
+				background-repeat: no-repeat;
 				background-size: contain;
 				content: '';
 				display: inline-block;
-				height: 1em;
-				margin-left: 0.5em;
-				width: 1em;
+				height: 2em;
+				margin-right: 0.5em;
+				width: 2em;
 			}
 		}
 	}
