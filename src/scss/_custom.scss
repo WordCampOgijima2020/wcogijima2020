@@ -776,9 +776,9 @@ ul.wp-block-latest-posts {
 		display: none;
 	}
 	.entry-content {
-		margin: auto;
-		max-width: 90rem;
-		width: calc(100% - 4rem);
+		//margin: auto;
+		//max-width: 90rem;
+		//width: calc(100% - 4rem);
 	}
 	#session-speaker-names {
 		display: flex;
@@ -799,4 +799,8 @@ ul.wp-block-latest-posts {
 			}
 		}
 	}
+}
+#session-speaker-names,
+#speaker-session-names {
+	margin: auto;
 }
