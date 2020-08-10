@@ -1228,11 +1228,6 @@ ul.wp-block-latest-posts li {
 .single-wcb_session .post-meta-wrapper {
   display: none; }
 
-.single-wcb_session .entry-content {
-  margin: auto;
-  max-width: 90rem;
-  width: calc(100% - 4rem); }
-
 .single-wcb_session #session-speaker-names {
   display: flex; }
 
@@ -1249,6 +1244,10 @@ ul.wp-block-latest-posts li {
     text-decoration: none; }
     .single-wcb_session span.session-categories-links a:hover {
       opacity: .7; }
+
+#session-speaker-names,
+#speaker-session-names {
+  margin: auto; }
 
 /* -------------------------------------------------------------------------- */
 /*	UTILITY STYLES
