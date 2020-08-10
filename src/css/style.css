@@ -1288,13 +1288,14 @@ ul.wp-block-latest-posts li {
     .page.page-id-7.page-slug-schedule a.show-email-form {
       left: 100px; } }
   .page.page-id-7.page-slug-schedule a.show-email-form .dashicons-star-filled {
-    display: none; }
+    padding-top: 5px; }
   .page.page-id-7.page-slug-schedule a.show-email-form .dashicons-email-alt:before {
     color: #fff;
     content: 'お気に入りを保存する';
+    display: block;
     font-size: 1.1rem;
-    width: 12rem !important;
-    display: inline-block; }
+    padding-top: 6px;
+    width: 11rem !important; }
 
 .page.page-id-7.page-slug-schedule .email-form {
   left: 12px;
