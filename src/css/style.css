@@ -1276,9 +1276,23 @@ ul.wp-block-latest-posts li {
 
 /* schedule */
 .page.page-id-7.page-slug-schedule a.show-email-form {
-  width: 3em !important;
+  background: #4e9aba;
+  border: none;
+  color: #fff;
+  left: 100px;
+  padding-top: 0;
   right: auto;
-  left: 100px; }
+  text-decoration: none;
+  width: 8em !important; }
+  .page.page-id-7.page-slug-schedule a.show-email-form .dashicons-star-filled {
+    display: none; }
+  .page.page-id-7.page-slug-schedule a.show-email-form .dashicons-email-alt :before {
+    color: #fff;
+    content: 'お気に入りを保存する';
+    font-size: 12px;
+    letter-spacing: 0;
+    width: 8em !important;
+    display: inline-block; }
 
 .page.page-id-7.page-slug-schedule .email-form {
   left: 100px;
