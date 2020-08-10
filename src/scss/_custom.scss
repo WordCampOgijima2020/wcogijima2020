@@ -825,11 +825,14 @@ ul.wp-block-latest-posts {
 		background: #4e9aba;
 		border: none;
 		color: #fff;
-		left: 100px;
+		left: 12px;
 		padding-top: 0;
 		right: auto;
 		text-decoration: none;
 		width: 8em !important;
+		@include min($bp){
+			left: 100px;
+		}
 		.dashicons-star-filled {
 			display: none;
 		}
@@ -837,21 +840,29 @@ ul.wp-block-latest-posts {
 			&:before {
 				color: #fff;
 				content: 'お気に入りを保存する';
-				font-size: 12px;
-				letter-spacing: 0;
-				width: 12em!important;
+				font-size: 1.1rem;
+				width: 12rem!important;
 				display: inline-block;
 			}
 		}
 	}
 	.email-form {
-		left: 100px;
+		left: 12px;
 		right: auto;
 		width: 35rem!important;
 		max-width: 35rem!important;
+		@include min($bp){
+			left: 100px;
+		}
 	}
 	.email-form.fav-session-email-form-show {
 		width: 35rem!important;
 		max-width: 35rem!important;
+	}
+	.fav-session-share-tab div.active {
+		background: #f0f8ff;
+	}
+	.fav-session-share-tabcontent {
+		background: #f0f8ff;
 	}
 }
