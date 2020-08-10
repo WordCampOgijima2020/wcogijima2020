@@ -1229,9 +1229,21 @@ ul.wp-block-latest-posts li {
 .single-wcb_session .post-meta-wrapper {
   display: none; }
 
-span.session-categories-links {
+.wcb_speaker .entry-content,
+.single-wcb_session .entry-content {
+  margin: auto;
+  max-width: 90rem;
+  width: calc(100% - 4rem); }
+
+.wcb_speaker #session-speaker-names,
+.single-wcb_session #session-speaker-names {
+  display: flex; }
+
+.wcb_speaker span.session-categories-links,
+.single-wcb_session span.session-categories-links {
   margin-left: 2rem; }
-  span.session-categories-links a {
+  .wcb_speaker span.session-categories-links a,
+  .single-wcb_session span.session-categories-links a {
     background: #0B697E;
     border: none;
     border-radius: 3px;
@@ -1240,12 +1252,12 @@ span.session-categories-links {
     font-size: 1.2rem;
     padding: 5px 15px;
     text-decoration: none; }
-    span.session-categories-links a:hover {
+    .wcb_speaker span.session-categories-links a:hover,
+    .single-wcb_session span.session-categories-links a:hover {
       opacity: .7; }
 
 #session-speaker-names,
 #speaker-session-names {
-  display: flex;
   margin: auto; }
 
 /* -------------------------------------------------------------------------- */
