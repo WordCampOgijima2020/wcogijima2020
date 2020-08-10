@@ -771,36 +771,30 @@ ul.wp-block-latest-posts {
 }
 
 /* session */
+.wcb_speaker,
 .single-wcb_session {
 	.post-meta-wrapper {
 		display: none;
 	}
-	.entry-content {
-		//margin: auto;
-		//max-width: 90rem;
-		//width: calc(100% - 4rem);
-	}
-	#session-speaker-names {
-		display: flex;
-	}
-	span.session-categories-links {
-		margin-left: 2rem;
-		a {
-			background: #0B697E;
-			border: none;
-			border-radius: 3px;
-			color: #fff !important;
-			display: inline-block !important;
-			font-size: 1.2rem;
-			padding: 5px 15px;
-			text-decoration: none;
-			&:hover {
-				opacity: .7;
-			}
+}
+span.session-categories-links {
+	margin-left: 2rem;
+	a {
+		background: #0B697E;
+		border: none;
+		border-radius: 3px;
+		color: #fff !important;
+		display: inline-block !important;
+		font-size: 1.2rem;
+		padding: 5px 15px;
+		text-decoration: none;
+		&:hover {
+			opacity: .7;
 		}
 	}
 }
 #session-speaker-names,
 #speaker-session-names {
+	display: flex;
 	margin: auto;
 }
