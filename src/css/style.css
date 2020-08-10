@@ -1259,6 +1259,10 @@ ul.wp-block-latest-posts li {
 #session-speaker-names,
 #speaker-session-names {
   margin: auto; }
+  #session-speaker-names em,
+  #speaker-session-names em {
+    font-style: normal;
+    font-size: 0.85em; }
 
 /* -------------------------------------------------------------------------- */
 /*	UTILITY STYLES
