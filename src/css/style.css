@@ -1272,8 +1272,10 @@ ul.wp-block-latest-posts li {
   left: 100px; }
 
 .page.page-id-7.page-slug-schedule .email-form {
+  left: 100px;
   right: auto;
-  left: 100px; }
+  width: 35rem !important;
+  max-width: 35rem !important; }
 
 .page.page-id-7.page-slug-schedule .email-form.fav-session-email-form-show {
   width: 35rem !important;
