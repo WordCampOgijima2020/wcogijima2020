@@ -834,7 +834,7 @@ ul.wp-block-latest-posts {
 			display: none;
 		}
 		.dashicons-email-alt {
-			:before {
+			&:before {
 				color: #fff;
 				content: 'お気に入りを保存する';
 				font-size: 12px;
