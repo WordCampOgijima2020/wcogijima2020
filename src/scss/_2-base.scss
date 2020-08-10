@@ -1,8 +1,10 @@
 @charset "UTF-8";
 // ======================================== 2. Element Base
+* {
+	letter-spacing: 0;
+}
 body {
 	color: #383838;
-	letter-spacing: 0;
 }
 h1,
 .heading-size-1 {
