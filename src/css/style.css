@@ -783,9 +783,9 @@ ul.wp-block-latest-posts li {
     ul.wp-block-latest-posts li a:hover {
       opacity: .7; }
 
-/* .archive, .blog  */
+/* .archive.category, .blog  */
 @media (min-width: 700px) {
-  .archive article,
+  .archive.category article,
   .blog article {
     position: relative;
     max-width: 100rem !important;
@@ -794,28 +794,28 @@ ul.wp-block-latest-posts li {
     display: flex;
     flex-wrap: wrap;
     justify-content: center !important; }
-    .archive article.sticky figure.featured-media,
+    .archive.category article.sticky figure.featured-media,
     .blog article.sticky figure.featured-media {
       margin-top: 4rem;
       max-width: 60rem;
       width: 100%; }
-    .archive article:not(.sticky) figure.featured-media,
+    .archive.category article:not(.sticky) figure.featured-media,
     .blog article:not(.sticky) figure.featured-media {
       margin-top: 4rem;
       width: 40%; }
-    .archive article:not(.sticky) .post-inner,
+    .archive.category article:not(.sticky) .post-inner,
     .blog article:not(.sticky) .post-inner {
       margin-top: 4rem;
       padding-top: 0;
       width: 60%; }
-    .archive article .entry-header,
+    .archive.category article .entry-header,
     .blog article .entry-header {
       width: 100%;
       position: relative; }
-    .archive article .section-inner,
+    .archive.category article .section-inner,
     .blog article .section-inner {
       width: calc(100% - 2rem); }
-    .archive article .entry-header-inner,
+    .archive.category article .entry-header-inner,
     .blog article .entry-header-inner {
       max-width: 100rem !important; } }
 
