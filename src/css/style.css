@@ -389,7 +389,7 @@ button,
 .entry-content h4.wapuu:before,
 .entry-content h5.wapuu:before,
 .entry-content h6.wapuu:before {
-  background: url("https://2020.ogijima.wordcamp.org/files/2020/08/meon-wapuu-300x223.jpg") no-repaet center center;
+  background: url("../images/wcogijima2020-icon-150.png") no-repaet center center;
   background-size: contain;
   content: '';
   display: inline-block;
