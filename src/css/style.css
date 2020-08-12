@@ -305,7 +305,7 @@ ul.primary-menu {
       ul.primary-menu ul li a {
         padding: 10px 15px 5px; }
   ul.primary-menu li.menu-item-has-children a {
-    padding-right: 0 !important; }
+    margin-right: 0; }
   ul.primary-menu li.menu-item-has-children ul a {
     padding: 10px 15px 5px !important; }
 
