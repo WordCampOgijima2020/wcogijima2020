@@ -41,7 +41,7 @@
 	@media (min-width: 700px) {
 		article {
 			position: relative;
-			max-width: 100rem !important;
+			max-width: 92rem !important;
 			padding-top: 200px;
 			margin: 0 auto;
 			display: flex;
@@ -73,7 +73,7 @@
 				width: calc(100% - 2rem);
 			}
 			.entry-header-inner {
-				max-width: 100rem!important;
+				//max-width: 100rem!important;
 			}
 		}
 	}
