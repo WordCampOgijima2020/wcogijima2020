@@ -118,6 +118,10 @@ button,
   .wp-block-file__button {
     font-family: "Inter var", "Noto Sans JP", "Hiragino Kaku Gothic Pro", sans-serif; } }
 
+@media (min-width: 700px) {
+  hr {
+    margin: 4rem auto; } }
+
 hr.post-separator.styled-separator.is-style-wide.section-inner {
   background: none;
   border-top: 1px solid #4E9ABA; }
