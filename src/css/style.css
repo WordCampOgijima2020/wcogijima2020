@@ -122,10 +122,13 @@ button,
   hr {
     margin: 4rem auto; } }
 
-hr.post-separator.styled-separator.is-style-wide.section-inner {
+.entry-content hr,
+hr.styled-separator {
   background: none;
   border-top: 1px solid #4E9ABA; }
-  hr.post-separator.styled-separator.is-style-wide.section-inner::after, hr.post-separator.styled-separator.is-style-wide.section-inner::before {
+  .entry-content hr::after, .entry-content hr::before,
+  hr.styled-separator::after,
+  hr.styled-separator::before {
     content: none; }
 
 /* -------------------------------------------------------------------------- */
