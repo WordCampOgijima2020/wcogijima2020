@@ -118,6 +118,12 @@ button,
   .wp-block-file__button {
     font-family: "Inter var", "Noto Sans JP", "Hiragino Kaku Gothic Pro", sans-serif; } }
 
+hr.post-separator.styled-separator.is-style-wide.section-inner {
+  background: none;
+  border-top: 1px solid #4E9ABA; }
+  hr.post-separator.styled-separator.is-style-wide.section-inner::after, hr.post-separator.styled-separator.is-style-wide.section-inner::before {
+    content: none; }
+
 /* -------------------------------------------------------------------------- */
 /*	4.	Site Header
 /* -------------------------------------------------------------------------- */
