@@ -326,6 +326,7 @@ hr.styled-separator::before {
 
 ul.primary-menu {
 	justify-content: space-around;
+	margin: -0.8rem 0 0 0;
 }
 
 ul.primary-menu a:hover,
@@ -340,7 +341,7 @@ ul.primary-menu li.current-menu-item > .link-icon-wrapper > a {
 }
 
 ul.primary-menu li {
-	margin-left: 30px;
+	margin-left: 6px;
 }
 
 ul.primary-menu li a {
@@ -840,6 +841,172 @@ td.tix-column-price {
 	background: #f0f8ff;
 }
 
+table.wcpt-schedule.alignwide {
+	font-family: "Inter var", "Noto Sans JP", "Hiragino Kaku Gothic Pro", sans-serif;
+	font-size: 1.4rem;
+	max-width: 90rem;
+}
+
+@media print, screen and (min-width: 700px) {
+	table.wcpt-schedule.alignwide {
+		font-size: 1.6rem;
+	}
+}
+
+th.wcpt-col-time:after {
+	content: ' (UTC+09)';
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+td.wcpt-col-time {
+	font-size: 1.2rem;
+	min-width: 8em;
+}
+
+@media print, screen and (min-width: 700px) {
+	th.wcpt-col-track {
+		width: 30%;
+	}
+}
+
+.wcpt-schedule tbody tr td:first-of-type, .wcpt-schedule tbody tr td.wcpt-time {
+	display: table-cell;
+	font-size: 1.2rem;
+	line-height: 100%;
+	color: #fff;
+	padding: .5rem 1rem;
+	background-color: #555;
+	border: none;
+}
+
+@media print, screen and (min-width: 700px) {
+	.wcpt-schedule tbody tr td:first-of-type, .wcpt-schedule tbody tr td.wcpt-time {
+		display: block;
+		text-align: right;
+	}
+}
+
+@media print, screen and (max-width: 700px) {
+	.wcpt-schedule tr {
+		border: none !important;
+	}
+}
+
+.wcpt-session-type-session {
+	background: #f4cccc;
+	outline: 2px solid #e68d8d !important;
+	outline-offset: -8px;
+	line-height: 1.8;
+	padding: 1.8rem 1.2rem;
+}
+
+.wcb-session-opening::after,
+.wcb-session-closing::after,
+.wcb-session-blockeditor::after,
+.wcb-session-meeting::after,
+.wcb-session-category-session::after {
+	content: 'YouTube';
+	background-color: #ff0000;
+	color: #fff;
+	padding: 3px 6px;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	font-weight: 900;
+	margin-top: 1.2rem;
+}
+
+.wcb-session-category-session {
+	background: #c9daf8;
+	outline: 2px solid #85acef !important;
+	outline-offset: -8px;
+}
+
+.wcb-session-category-meeting {
+	background: #d9ead3;
+	outline: 2px solid #acd19f !important;
+	outline-offset: -8px;
+}
+
+.wcb-session-category-workshop {
+	background: #fff2cc;
+	outline: 2px solid #ffdf80 !important;
+	outline-offset: -8px;
+}
+
+.wcpt-session-type-custom {
+	background: #efefef;
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+.wcpt-session-type-custom span {
+	letter-spacing: .3em;
+}
+
+.wcb-favourite-session {
+	background: inherit !important;
+}
+
+.session-category-table {
+	font-size: 1.2rem;
+	max-width: 60rem !important;
+}
+
+@media print, screen and (min-width: 700px) {
+	.session-category-table {
+		padding-left: 8em;
+	}
+}
+
+.session-category-table td {
+	font-size: 1.2rem;
+}
+
+.session-category-table td:first-child {
+	background: #c9daf8;
+}
+
+.session-category-table td:nth-child(2) {
+	background: #d9ead3;
+}
+
+.session-category-table td:nth-child(3) {
+	background: #fff2cc;
+}
+
+.wcpt-session-type-session .wcb-session-cell-content:before {
+	position: absolute;
+}
+
+.single-wcb_session .pagination-single {
+	display: none;
+}
+
+.wcpt-session-title {
+	display: table;
+	margin: .8em 0;
+	width: 100%;
+}
+
+.wcpt-session-title em {
+	font-size: .85em;
+	font-style: normal;
+}
+
+span.wcpt-session-speakers {
+	display: block;
+	font-size: .9em;
+}
+
+#session-speaker-names {
+	margin-bottom: 16px;
+}
+
+#session-speaker-names li:first-child {
+	margin-left: 0;
+}
+
 /* -------------------------------------------------------------------------- */
 /*	11. Entry Content
 /* -------------------------------------------------------------------------- */
@@ -1114,6 +1281,62 @@ h3.sd-title {
 	font-size: 1.953rem;
 	font-weight: 700;
 	letter-spacing: 1px;
+}
+
+/* top のページタイトルを非表示 */
+.home h1.entry-title {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	-webkit-clip-path: inset(50%);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+	word-break: normal;
+}
+
+.home .top_tickets_btn {
+	position: absolute;
+	top: 550px;
+	z-index: 1000;
+	margin: 0 auto;
+	padding: 0;
+	right: 0;
+	left: 0;
+}
+
+.home .top_tickets_btn a {
+	background: #fff;
+}
+
+.home .top_tickets_btn a:hover {
+	background: #f7931e;
+	color: #fff !important;
+}
+
+@media print, screen and (min-width: 700px) {
+	.home .top_tickets_btn {
+		top: 850px;
+	}
+}
+
+@media print, screen and (min-width: 1000px) {
+	.home .top_tickets_btn {
+		top: 0;
+		left: auto;
+		padding-right: 30px;
+		text-align: right;
+	}
+}
+
+@media print, screen and (min-width: 1000px) {
+	.admin-bar.home .top_tickets_btn {
+		top: 40px;
+	}
 }
 
 .home figure.featured-media,
