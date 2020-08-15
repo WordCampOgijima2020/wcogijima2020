@@ -789,6 +789,8 @@ h3.sd-title {
   flex-wrap: wrap; }
 
 .entry-content .section {
+  border-bottom: solid 1px #8DE4DD;
+  padding: 4rem 3rem 8rem;
   width: 100% !important;
   max-width: 100% !important; }
   .entry-content .section:first-child {
@@ -798,9 +800,9 @@ h3.sd-title {
     border-bottom: none;
     padding-bottom: 0; }
 
-body:not(.blog) .entry-content .section, body:not(.archive) .entry-content .section {
-  border-bottom: solid 1px #8DE4DD;
-  padding: 4rem 3rem 8rem; }
+.blog .entry-content .section,
+.archive .entry-content .section {
+  border-bottom: none; }
 
 .section-title {
   line-height: 1.6;
