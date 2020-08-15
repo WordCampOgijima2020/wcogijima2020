@@ -5,10 +5,10 @@
   "author": "WordCamp Ogijima 2020 team",
   "license": "GPL-2.0+",
   "scripts": {
-    "css": "yarn build-css && yarn autoprefixer",
-    "build-css": "node-sass --output-style expanded --indent-width 4 src/scss/style.scss src/css/style.css",
-    "autoprefix": "npx postcss src/**/*.css --use autoprefixer -d src/ --no-map",
-    "watch": "node-sass src/scss/ --output src/css/ -r -w --output-style expanded --indent-width 4 && yarn autoprefix"
+    "css": "yarn build-css && yarn autoprefix",
+    "build-css": "node-sass --output-style expanded --indent-width 1 --indent-type tab src/scss/style.scss src/css/style.css",
+    "autoprefix": "npx postcss src/css/*.css --use autoprefixer -d src/css/ --no-map",
+    "watch": "node-sass src/scss/ --output src/css/ -r -w --output-style expanded --indent-type tab --indent-width 1 && yarn css"
   },
   "dependencies": {
     "@wordpress/browserslist-config": "^2.7.0",
