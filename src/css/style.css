@@ -10,6 +10,8 @@
 	2. 	Element Base
 	4. 	Site Header
 	5. 	Menu Modal
+	8.  Post: Archive
+	9.  Post: Single
 	11. Entry Content
 	15. Widgets
 	16. Site Footer
@@ -330,6 +332,284 @@ ul.primary-menu {
   color: #0B697E; }
 
 /* @end */
+/* -------------------------------------------------------------------------- */
+/*	8. Post: Archive
+/* -------------------------------------------------------------------------- */
+.archive-header-inner {
+  max-width: 90rem !important; }
+
+.archive-title {
+  color: #4E9ABA;
+  font-family: "Inter var", Noto Sans JP;
+  font-size: 3.2rem !important;
+  font-weight: 900;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  margin: 0 !important;
+  text-align: left;
+  width: calc(100% - 2rem); }
+  .archive-title em {
+    display: block;
+    font-style: normal;
+    font-size: 1.953rem;
+    font-weight: 700;
+    letter-spacing: 1px; }
+  .archive-title:after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #F7931E;
+    margin-top: 2rem; }
+  .archive-title span.color-accent {
+    display: none; }
+
+/* .archive.category, .blog  */
+@media (min-width: 700px) {
+  .archive.category article,
+  .blog article {
+    position: relative;
+    max-width: 100rem !important;
+    padding-top: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center !important; }
+    .archive.category article.sticky figure.featured-media,
+    .blog article.sticky figure.featured-media {
+      margin-top: 4rem;
+      max-width: 60rem;
+      width: 100%; }
+    .archive.category article:not(.sticky) figure.featured-media,
+    .blog article:not(.sticky) figure.featured-media {
+      margin-top: 4rem;
+      width: 40%; }
+    .archive.category article:not(.sticky) .post-inner,
+    .blog article:not(.sticky) .post-inner {
+      margin-top: 4rem;
+      padding-top: 0;
+      width: 60%; }
+    .archive.category article .entry-header,
+    .blog article .entry-header {
+      width: 100%;
+      position: relative; }
+    .archive.category article .section-inner,
+    .blog article .section-inner {
+      width: calc(100% - 2rem); }
+    .archive.category article .entry-header-inner,
+    .blog article .entry-header-inner {
+      max-width: 100rem !important; } }
+
+.page-slug-news .entry-title a,
+.archive .entry-title a {
+  color: #0B697E; }
+
+.page-slug-news .entry-title:after,
+.archive .entry-title:after {
+  content: none; }
+
+/* -------------------------------------------------------------------------- */
+/*	9. Post: Single
+/* -------------------------------------------------------------------------- */
+/* fukidashi */
+.fukidashi img {
+  border-radius: 30px;
+  padding: 5px; }
+
+.fukidashi .wp-block-media-text__content {
+  border: 2px solid;
+  border-radius: 20px;
+  position: relative; }
+  @media print, screen and (min-width: 700px) {
+    .fukidashi .wp-block-media-text__content {
+      padding: 3rem 2rem; } }
+  .fukidashi .wp-block-media-text__content:after, .fukidashi .wp-block-media-text__content:before {
+    border: solid transparent;
+    content: '';
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 50%; }
+  .fukidashi .wp-block-media-text__content:after {
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    margin-top: -5px; }
+  .fukidashi .wp-block-media-text__content:before {
+    border-top-width: 7px;
+    border-bottom-width: 7px;
+    border-left-width: 14px;
+    border-right-width: 14px;
+    margin-top: -7px; }
+
+@media print, screen and (min-width: 700px) {
+  .fukidashi-left-media .wp-block-media-text__content,
+  .fukidashi-right-media .wp-block-media-text__content {
+    padding: 3rem 2rem; } }
+
+.fukidashi-left-media .wp-block-media-text__content {
+  border-color: #e9bd8b;
+  margin-left: 2em; }
+  .fukidashi-left-media .wp-block-media-text__content:after, .fukidashi-left-media .wp-block-media-text__content:before {
+    right: 100%; }
+  .fukidashi-left-media .wp-block-media-text__content:after {
+    border-right-color: #fff; }
+  .fukidashi-left-media .wp-block-media-text__content:before {
+    margin-right: 2px;
+    border-right-color: #e9bd8b; }
+
+.fukidashi-right-media .wp-block-media-text__content {
+  border-color: #a2d1e6;
+  margin-right: 2em; }
+  .fukidashi-right-media .wp-block-media-text__content:after, .fukidashi-right-media .wp-block-media-text__content:before {
+    left: 100%; }
+  .fukidashi-right-media .wp-block-media-text__content:after {
+    border-left-color: #fff; }
+  .fukidashi-right-media .wp-block-media-text__content:before {
+    margin-left: 2px;
+    border-left-color: #a2d1e6; }
+
+/* .attendees */
+.page-slug-micro-sponsors ul.tix-attendee-list.tix-columns-3 li,
+.page-slug-attendees ul.tix-attendee-list.tix-columns-3 li {
+  padding: 0;
+  margin: 0; }
+  @media print, screen and (max-width: 700px) {
+    .page-slug-micro-sponsors ul.tix-attendee-list.tix-columns-3 li,
+    .page-slug-attendees ul.tix-attendee-list.tix-columns-3 li {
+      width: 100% !important; } }
+
+#tix-attendees .avatar {
+  border-radius: 20px;
+  padding: 5px;
+  width: 80px;
+  height: 80px; }
+
+#tix-attendees .tix-field {
+  margin-left: 100px;
+  padding-top: 0.2em; }
+
+/* tickets */
+.tix-column-description {
+  line-height: 1.8; }
+
+label.tix-ticket-title {
+  padding-top: 1em;
+  display: inline-block;
+  color: #4e9aba; }
+
+input[type="submit"] {
+  background: #8de4dd;
+  color: #383838;
+  border-radius: 30px;
+  font-size: 1.6rem;
+  padding: 1em 4em; }
+  input[type="submit"]:hover {
+    text-decoration: none;
+    background: #9af9f0; }
+
+th.tix-column-price {
+  min-width: 4em;
+  text-align: center; }
+
+td.tix-column-price {
+  text-align: center; }
+
+/* session */
+.tax-wcb_session_category .post-meta-wrapper,
+.wcb_speaker .post-meta-wrapper,
+.single-wcb_session .post-meta-wrapper {
+  display: none; }
+
+.tax-wcb_session_category .entry-content,
+.wcb_speaker .entry-content,
+.single-wcb_session .entry-content {
+  margin: auto;
+  max-width: 90rem;
+  width: calc(100% - 4rem); }
+
+.tax-wcb_session_category #session-speaker-names,
+.wcb_speaker #session-speaker-names,
+.single-wcb_session #session-speaker-names {
+  display: flex; }
+
+.tax-wcb_session_category span.session-categories-links,
+.wcb_speaker span.session-categories-links,
+.single-wcb_session span.session-categories-links {
+  margin-left: 2rem; }
+  .tax-wcb_session_category span.session-categories-links a,
+  .wcb_speaker span.session-categories-links a,
+  .single-wcb_session span.session-categories-links a {
+    background: #0B697E;
+    border: none;
+    border-radius: 3px;
+    color: #fff !important;
+    display: inline-block !important;
+    font-size: 1.2rem;
+    padding: 5px 15px;
+    text-decoration: none; }
+    .tax-wcb_session_category span.session-categories-links a:hover,
+    .wcb_speaker span.session-categories-links a:hover,
+    .single-wcb_session span.session-categories-links a:hover {
+      opacity: .7; }
+
+#session-speaker-names,
+#speaker-session-names {
+  margin: auto; }
+  #session-speaker-names em,
+  #speaker-session-names em {
+    font-style: normal;
+    font-size: 0.85em;
+    margin: 0 .5em; }
+
+.wordcamp-sessions__title em {
+  font-style: normal;
+  font-size: 0.85em;
+  margin: 0 .5em; }
+
+/* schedule */
+.page.page-id-7.page-slug-schedule a.show-email-form {
+  background: #4e9aba;
+  border: none;
+  color: #fff;
+  left: 12px;
+  padding-top: 0;
+  right: auto;
+  text-decoration: none;
+  width: 8em !important; }
+  @media print, screen and (min-width: 700px) {
+    .page.page-id-7.page-slug-schedule a.show-email-form {
+      left: 100px; } }
+  .page.page-id-7.page-slug-schedule a.show-email-form .dashicons-star-filled {
+    padding-top: 5px; }
+  .page.page-id-7.page-slug-schedule a.show-email-form .dashicons-email-alt:before {
+    color: #fff;
+    content: 'お気に入りを保存する';
+    display: block;
+    font-size: 1.1rem;
+    padding-top: 6px;
+    width: 11rem !important; }
+
+.page.page-id-7.page-slug-schedule .email-form {
+  left: 12px;
+  right: auto;
+  width: 35rem !important;
+  max-width: 35rem !important; }
+  @media print, screen and (min-width: 700px) {
+    .page.page-id-7.page-slug-schedule .email-form {
+      left: 100px; } }
+
+.page.page-id-7.page-slug-schedule .email-form.fav-session-email-form-show {
+  width: 35rem !important;
+  max-width: 35rem !important; }
+
+.page.page-id-7.page-slug-schedule .fav-session-share-tab div.active {
+  background: #f0f8ff; }
+
+.page.page-id-7.page-slug-schedule .fav-session-share-tabcontent {
+  background: #f0f8ff; }
+
 /* -------------------------------------------------------------------------- */
 /*	11. Entry Content
 /* -------------------------------------------------------------------------- */
