@@ -1,9 +1,9 @@
 @charset "UTF-8";
 // ======================================== 16. Site Footer
 
-/* @group footer */
+//* @group footer */
 
-/* footer */
+//* footer */
 
 .footer-nav-widgets-wrapper,
 #site-footer {
@@ -104,7 +104,9 @@
 		}
 	}
 }
-
+.footer-widgets-wrapper {
+	display: block;
+}
 
 #site-footer {
 	background: linear-gradient(rgba(78, 154, 186, 0.8), rgba(78, 154, 186, 0.8)),
@@ -176,4 +178,4 @@ a.to-the-top {
 }
 
 
-/* @end */
+//* @end */
