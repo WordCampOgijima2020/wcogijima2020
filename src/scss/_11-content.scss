@@ -138,7 +138,7 @@ h2.entry-title {
 
 .entry-title {
 	color:$maincolor;
-	font-family: "Inter var", Noto Sans JP;
+	font-family: "Inter var", "Noto Sans JP";
 	font-weight: 900 ;
 	line-height: 1.6;
 	letter-spacing: 1px ;
@@ -222,7 +222,7 @@ h3.sd-title {
 		flex-wrap: wrap;
 	}
 	.section {
-		border-bottom: solid 1px #8DE4DD;
+		border-bottom: solid 1px #8de4dd;
 		padding: 4rem 3rem 8rem;
 		width: 100% !important;
 		max-width: 100% !important;
