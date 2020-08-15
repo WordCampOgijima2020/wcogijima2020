@@ -102,3 +102,12 @@ button,
 		font-family: $font;
 	}
 }
+
+hr.post-separator.styled-separator.is-style-wide.section-inner {
+	background: none;
+	border-top: 1px solid $maincolor;
+	&::after,
+	&::before {
+		content: none;
+	}
+}
