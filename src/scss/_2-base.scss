@@ -107,12 +107,13 @@ hr {
 	@media (min-width: 700px) {
 		margin: 4rem auto;
 	}
-	&.post-separator.styled-separator.is-style-wide.section-inner {
-		background: none;
-		border-top: 1px solid $maincolor;
-		&::after,
-		&::before {
-			content: none;
-		}
+}
+.entry-content hr,
+ hr.styled-separator {
+	background: none;
+	border-top: 1px solid $maincolor;
+	&::after,
+	&::before {
+		content: none;
 	}
 }
