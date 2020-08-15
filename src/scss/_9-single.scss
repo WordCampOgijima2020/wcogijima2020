@@ -1,10 +1,19 @@
 @charset "UTF-8";
 // ======================================== 9. Post: Single
 
-.singular .entry-header {
-	padding: 2rem 0;
-	@include min($bp) {
+.singular {
+	.entry-header {
 		padding: 2rem 0;
+		@include min($bp) {
+			padding: 4rem 0;
+		}
+	}
+	&.single-post {
+		.entry-header {
+			@include min($bp) {
+				padding: 2rem 0;
+			}
+		}
 	}
 }
 
