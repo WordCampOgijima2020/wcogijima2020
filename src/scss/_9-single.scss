@@ -1,2 +1,245 @@
 @charset "UTF-8";
 // ======================================== 9. Post: Single
+
+
+/* fukidashi */
+.fukidashi {
+	img {
+		border-radius: 30px;
+		padding: 5px;
+	}
+	.wp-block-media-text__content {
+		border:2px solid;
+		border-radius: 20px;
+		position: relative;
+		@include min($bp) {
+			padding: 3rem 2rem;
+		}
+		&:after,
+		&:before{
+			border: solid transparent;
+			content:'';
+			height:0;
+			width:0;
+			position:absolute;
+			top:50%;
+		}
+		&:after{
+			border-top-width:5px;
+			border-bottom-width:5px;
+			border-left-width:10px;
+			border-right-width:10px;
+			margin-top: -5px;
+		}
+		&:before{
+			border-top-width:7px;
+			border-bottom-width:7px;
+			border-left-width:14px;
+			border-right-width:14px;
+			margin-top: -7px;
+		}
+	}
+}
+
+$left_media_border_color: #e9bd8b;
+$right_media_border_color: #a2d1e6;
+
+.fukidashi-left-media,
+.fukidashi-right-media {
+	.wp-block-media-text__content {
+		@include min($bp) {
+			padding: 3rem 2rem;
+		}
+	}
+}
+.fukidashi-left-media {
+	.wp-block-media-text__content {
+		border-color: $left_media_border_color;
+		margin-left: 2em;
+		&:after,
+		&:before{
+			right:100%;
+		}
+		&:after{
+			border-right-color:#fff;
+		}
+		&:before{
+			margin-right: 2px;
+			border-right-color: $left_media_border_color;
+		}
+	}
+}
+.fukidashi-right-media {
+	.wp-block-media-text__content {
+		border-color: $right_media_border_color;
+		margin-right: 2em;
+		&:after,
+		&:before{
+			left:100%;
+		}
+		&:after{
+			border-left-color:#fff;
+		}
+		&:before{
+			margin-left: 2px;
+			border-left-color: $right_media_border_color;
+		}
+	}
+}
+
+/* .attendees */
+.page-slug-micro-sponsors,
+.page-slug-attendees{
+	ul.tix-attendee-list.tix-columns-3{
+		li{
+			padding:0;
+			margin:0;
+			@include max($bp){
+				width:100% !important;
+
+			}
+		}
+	}
+}
+
+#tix-attendees {
+	.avatar {
+		border-radius: 20px;
+		padding: 5px;
+		width: 80px;
+		height: 80px;
+	}
+	.tix-field {
+		margin-left: 100px;
+		padding-top: 0.2em;
+	}
+}
+
+/* tickets */
+.tix-column-description {
+	line-height: 1.8;
+}
+
+label.tix-ticket-title {
+	padding-top: 1em;
+	display: inline-block;
+	color: #4e9aba;
+}
+input[type="submit"] {
+	background: #8de4dd;
+	color: #383838;
+	border-radius: 30px;
+	font-size: 1.6rem;
+	padding: 1em 4em;
+	&:hover {
+		text-decoration: none;
+		background: #9af9f0;
+	}
+}
+
+th.tix-column-price {
+	min-width: 4em;
+	text-align: center;
+}
+
+td.tix-column-price {
+	text-align: center;
+}
+
+/* session */
+.tax-wcb_session_category,
+.wcb_speaker,
+.single-wcb_session {
+	.post-meta-wrapper {
+		display: none;
+	}
+	.entry-content {
+		margin: auto;
+		max-width: 90rem;
+		width: calc(100% - 4rem);
+	}
+	#session-speaker-names {
+		display: flex;
+	}
+	span.session-categories-links {
+		margin-left: 2rem;
+		a {
+			background: #0B697E;
+			border: none;
+			border-radius: 3px;
+			color: #fff !important;
+			display: inline-block !important;
+			font-size: 1.2rem;
+			padding: 5px 15px;
+			text-decoration: none;
+			&:hover {
+				opacity: .7;
+			}
+		}
+	}
+}
+#session-speaker-names,
+#speaker-session-names {
+	margin: auto;
+	em {
+		font-style: normal;
+		font-size: 0.85em;
+		margin: 0 .5em;
+	}
+}
+.wordcamp-sessions__title {
+	em {
+		font-style: normal;
+		font-size: 0.85em;
+		margin: 0 .5em;
+	}
+}
+
+/* schedule */
+.page.page-id-7.page-slug-schedule {
+	a.show-email-form {
+		background: #4e9aba;
+		border: none;
+		color: #fff;
+		left: 12px;
+		padding-top: 0;
+		right: auto;
+		text-decoration: none;
+		width: 8em !important;
+		@include min($bp){
+			left: 100px;
+		}
+		.dashicons-star-filled {
+			padding-top: 5px;
+		}
+		.dashicons-email-alt {
+			&:before {
+				color: #fff;
+				content: 'お気に入りを保存する';
+				display: block;
+				font-size: 1.1rem;
+				padding-top: 6px;
+				width: 11rem !important;
+			}
+		}
+	}
+	.email-form {
+		left: 12px;
+		right: auto;
+		width: 35rem!important;
+		max-width: 35rem!important;
+		@include min($bp){
+			left: 100px;
+		}
+	}
+	.email-form.fav-session-email-form-show {
+		width: 35rem!important;
+		max-width: 35rem!important;
+	}
+	.fav-session-share-tab div.active {
+		background: #f0f8ff;
+	}
+	.fav-session-share-tabcontent {
+		background: #f0f8ff;
+	}
+}
