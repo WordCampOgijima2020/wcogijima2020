@@ -110,7 +110,7 @@ hr {
 }
 .entry-content hr,
  hr.styled-separator {
-	background: linear-gradient(to left, $maincolor,$maincolor );
+	background: linear-gradient(to left, #8de4dd, #8de4dd );
 	//border-top: 1px solid $maincolor;
 	&::after,
 	&::before {
