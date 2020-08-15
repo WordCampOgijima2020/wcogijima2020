@@ -113,3 +113,301 @@
 	max-width: 90rem;
 	width: 100%;
 }
+
+.entry-header,
+.archive-header{
+	padding-top:20px !important;
+}
+
+.entry-header-inner {
+	max-width: 90rem !important;
+}
+
+h1.entry-title,
+h2.entry-title {
+	text-align: left;
+	font-size: 2.4rem;
+	font-weight: 900 ;
+	@include min($bp){
+		font-size: 3rem !important;
+	}
+	@include min(1220px){
+		//font-size: 3.4rem !important;
+	}
+}
+
+.entry-title {
+	color:$maincolor;
+	font-family: "Inter var", Noto Sans JP;
+	font-weight: 900 ;
+	line-height: 1.6;
+	letter-spacing: 1px ;
+	margin: 0 !important;
+	width: calc(100% - 2rem);
+	&:after {
+		background: $subcolor;
+		content: "";
+		display: block;
+		height: 3px;
+		margin-top: 2rem;
+		width: 40px;
+	}
+	em {
+		display: block;
+		font-style: normal;
+		font-size: 1.953rem;
+		font-weight: 700;
+		letter-spacing: 1px;
+	}
+}
+
+h3.sd-title {
+	font-size: 1.8rem !important;
+}
+
+.entry-content {
+	h1,h2{
+		font-size: 2.4rem;
+		@include min($bp){
+			//font-size: 3rem !important;
+		}
+		@include min(1220px){
+			//font-size: 3.4rem !important;
+		}
+	}
+	h3{
+		font-size: 1.8rem;
+		@include min($bp){
+			//font-size: 2rem !important;
+		}
+		@include min(1220px){
+			//font-size: 2.4rem !important;
+		}
+	}
+	h4{
+		font-size: 1.6rem;
+		@include min($bp){
+			//font-size: 1.8rem !important;
+		}
+		@include min(1220px){
+			//font-size: 2rem !important;
+		}
+	}
+	form {
+		label {
+			font-family: sans-serif;
+		}
+		input:focus,
+		textarea:focus {
+			outline-color:$linkcolor;
+		}
+	}
+	button,
+	.pushbutton-wide,
+	.wp-block-button__link {
+		background: #8DE4DD;
+		color:$basecolor !important;
+		border-radius: 30px;
+		min-width:200px;
+		margin:0 auto;
+		display:block;
+		transition: all 0.3s ease;
+		&:hover {
+			text-decoration: none;
+			background: #9AF9F0;
+		}
+	}
+	.flex {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.section {
+		width: 100% !important;
+		max-width: 100% !important;
+		&:first-child {
+			margin-top: 0 !important;
+			padding-top: 0;
+		}
+		&.no_border {
+			border-bottom: none;
+			padding-bottom: 0;
+		}
+	}
+}
+body {
+	&:not(.blog),
+	&:not(.archive) {
+		.entry-content {
+			.section {
+				border-bottom: solid 1px #8DE4DD;
+				padding: 4rem 3rem 8rem;
+			}
+		}
+	}
+}
+
+.section-title {
+	line-height: 1.6;
+	font-size: 2.4rem;
+	font-weight: 900;
+	letter-spacing: 1px;
+	color:$maincolor;
+	@include min($bp){
+		font-size: 3rem;
+	}
+	@include min(1220px){
+		font-size: 3.4rem;
+	}
+	&:after {
+		content: "";
+		display: block;
+		width: 40px;
+		height: 3px;
+		background: $subcolor;
+		margin-top: 2rem;
+	}
+	em {
+		display: block;
+		font-style: normal;
+		font-size: 1.953rem;
+		font-weight: 700;
+		letter-spacing: 1px;
+	}
+}
+
+//* @group front page */
+
+//* front page (.home) */
+
+.home figure.featured-media,
+.page-slug-en figure.featured-media {
+	display: none;
+}
+
+.home .entry-header,
+.page-slug-en .entry-header {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.home .entry-header{
+	padding-top:80px !important;
+}
+
+.home .post-inner,
+.page-slug-en .post-inner {
+	padding-top: 0;
+}
+
+
+.home .content-has-bg,
+.page-slug-en .content-has-bg{
+	background:
+		linear-gradient(180deg, rgba(220, 251, 255, 0.7) 0%, rgba(220, 251, 255, 1) 50%),
+		url(https://2020.ogijima.wordcamp.org/files/2020/08/content_bg.png) no-repeat top center ;
+}
+
+
+.home {
+	.entry-title:after {
+		content: none;
+	}
+	.section-inner.medium {
+		margin: auto;
+		margin-bottom: 0;
+		max-width: 90rem;
+		width: calc(100% - 4rem);
+	}
+
+}
+
+ul {
+	&.wp-block-latest-posts {
+		li {
+			border-bottom: solid 1px #ccc;
+			border-bottom: solid 1px #ccc;
+			color: $basecolor;
+			@media (min-width: 700px) {
+				border-bottom: none;
+			}
+			.alignleft {
+				float: none;
+				text-align: center;
+				max-width: 100%;
+				@media (min-width: 700px) {
+					float: left;
+					max-width: 26rem;
+				}
+			}
+			a {
+				color: $linkcolor;
+				font-size:1.8rem;
+				&:after {
+					content: "＞";
+					display: inline-block;
+					font-size: 10px;
+					margin-left: 10px;
+					vertical-align: middle;
+				}
+				&:hover {
+					opacity: .7;
+					text-decoration:underline;
+				}
+			}
+			@include min($bp){
+				border-bottom: none;
+				.alignleft {
+					float: left;
+					max-width: 26rem;
+				}
+			}
+		}
+	}
+}
+
+.ogi_concept {
+	.wp-block-buttons{
+		text-align: right;
+	}
+}
+
+.ogi_outline {
+	h3 strong {
+		display: inline-block;
+		padding: 10px 25px;
+		text-align: center;
+		background: $subcolor;
+		color:#fff;
+		border-radius: 5px;
+		font-size: 2rem;
+		font-weight: bold;
+	}
+	p.date {
+		font-family: "Inter var", "Noto Sans JP" !important;
+		font-size: 2.2rem;
+		font-weight: 900;
+	}
+}
+
+.ogi_sns {
+	ul.flex {
+		list-style: none;
+		flex-wrap: wrap;
+		li {
+			font-size: 14px;
+			margin-left: 0;
+			margin-right: 10%;
+			a {
+				transition: .3s ease 0;
+				&:hover {
+					opacity: .7;
+				}
+			}
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+//* @end */
