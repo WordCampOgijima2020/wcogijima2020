@@ -222,6 +222,8 @@ h3.sd-title {
 		flex-wrap: wrap;
 	}
 	.section {
+		border-bottom: solid 1px #8DE4DD;
+		padding: 4rem 3rem 8rem;
 		width: 100% !important;
 		max-width: 100% !important;
 		&:first-child {
@@ -234,14 +236,11 @@ h3.sd-title {
 		}
 	}
 }
-body {
-	&:not(.blog),
-	&:not(.archive) {
-		.entry-content {
-			.section {
-				border-bottom: solid 1px #8DE4DD;
-				padding: 4rem 3rem 8rem;
-			}
+.blog,
+.archive {
+	.entry-content {
+		.section {
+			border-bottom: none;
 		}
 	}
 }
