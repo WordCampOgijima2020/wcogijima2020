@@ -6,9 +6,9 @@
   "license": "GPL-2.0+",
   "scripts": {
     "css": "yarn build-css && yarn autoprefixer",
-    "build-css": "node-sass --output-style expanded --indent-width 4 src/scss/style.scss src/css/style.css & node-sass --output-style expanded --indent-width 4 src/scss/editor-style.scss src/css/editor-style.css",
+    "build-css": "node-sass --output-style expanded --indent-width 4 src/scss/style.scss src/css/style.css",
     "autoprefix": "npx postcss src/**/*.css --use autoprefixer -d src/ --no-map",
-    "watch": "node-sass src/scss/ --output src/css/ -r -w -- npm run css"
+    "watch": "node-sass src/scss/ --output src/css/ -r -w --output-style expanded --indent-width 4 && yarn autoprefix"
   },
   "dependencies": {
     "@wordpress/browserslist-config": "^2.7.0",
