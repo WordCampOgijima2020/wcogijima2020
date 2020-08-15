@@ -428,7 +428,11 @@ ul.primary-menu {
   padding: 2rem 0; }
   @media print, screen and (min-width: 700px) {
     .singular .entry-header {
-      padding: 2rem 0; } }
+      padding: 4rem 0; } }
+
+@media print, screen and (min-width: 700px) {
+  .singular.single-post .entry-header {
+    padding: 2rem 0; } }
 
 /* fukidashi */
 .fukidashi img {
