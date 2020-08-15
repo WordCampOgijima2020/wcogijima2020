@@ -278,6 +278,53 @@ h3.sd-title {
 
 //* front page (.home) */
 
+/* top のページタイトルを非表示 */
+.home h1.entry-title {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	-webkit-clip-path: inset(50%);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+	word-break: normal;
+}
+
+.home .top_tickets_btn{
+	position:absolute;
+	top:550px;
+	z-index:1000;
+	margin:0 auto;
+	padding:0;
+	right:0;
+	left:0;
+	a{
+		background:#fff;
+		&:hover{
+			background:$subcolor;
+			color:#fff !important;
+		}
+	}
+	@include min($bp){
+		top:850px;
+	}
+	@include min(1000px){
+		top:0;
+		left:auto;
+		padding-right:30px;
+		text-align:right;
+	}
+}
+.admin-bar.home .top_tickets_btn {
+	@include min(1000px){
+    top: 40px;
+	}
+}
+
 .home figure.featured-media,
 .page-slug-en figure.featured-media {
 	display: none;
