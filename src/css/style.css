@@ -424,6 +424,12 @@ ul.primary-menu {
 /* -------------------------------------------------------------------------- */
 /*	9. Post: Single
 /* -------------------------------------------------------------------------- */
+.singular .entry-header {
+  padding: 2rem 0; }
+  @media print, screen and (min-width: 700px) {
+    .singular .entry-header {
+      padding: 2rem 0; } }
+
 /* fukidashi */
 .fukidashi img {
   border-radius: 30px;
