@@ -157,7 +157,7 @@ button,
 
 .entry-content hr,
 hr.styled-separator {
-    background: linear-gradient(to left, #4E9ABA, #4E9ABA);
+    background: linear-gradient(to left, #8de4dd, #8de4dd);
 }
 
 .entry-content hr::after, .entry-content hr::before,
@@ -358,7 +358,7 @@ ul.primary-menu li a:after {
 }
 
 ul.primary-menu li a:hover:after {
-    background: #F7931E;
+    background: #f7931e;
 }
 
 ul.primary-menu .icon {
@@ -380,13 +380,13 @@ ul.primary-menu li.current-menu-item a:after,
 ul.primary-menu li.current_page_ancestor a:after {
     content: "";
     height: 5px;
-    background: #F7931E;
+    background: #f7931e;
     display: block;
 }
 
 ul.primary-menu li.current-menu-item ul li.current-menu-item a:after,
 ul.primary-menu li.current_page_ancestor ul li.current-menu-item a:after {
-    background: #F7931E;
+    background: #f7931e;
 }
 
 ul.primary-menu li.current-menu-item ul a:after,
@@ -396,7 +396,7 @@ ul.primary-menu li.current_page_ancestor ul a:after {
 
 ul.primary-menu li.current-menu-item ul a:hover:after,
 ul.primary-menu li.current_page_ancestor ul a:hover:after {
-    background: #F7931E;
+    background: #f7931e;
 }
 
 ul.primary-menu ul {
@@ -449,19 +449,19 @@ ul.primary-menu li.menu-item-has-children ul a {
 }
 
 .button.toggle.close-nav-toggle:focus {
-    outline: 1px solid #0B697E !important;
+    outline: 1px solid #0b697e !important;
 }
 
 .modal-menu li a {
-    color: #0B697E;
+    color: #0b697e;
 }
 
 .modal-menu li a:focus {
-    outline: 1px solid #0B697E;
+    outline: 1px solid #0b697e;
 }
 
 .modal-menu li ul li a {
-    color: #0B697E;
+    color: #0b697e;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -472,8 +472,8 @@ ul.primary-menu li.menu-item-has-children ul a {
 }
 
 .archive-title {
-    color: #4E9ABA;
-    font-family: "Inter var", Noto Sans JP;
+    color: #4e9aba;
+    font-family: "Inter var", "Noto Sans JP";
     font-size: 3.2rem !important;
     font-weight: 900;
     line-height: 1.6;
@@ -496,7 +496,7 @@ ul.primary-menu li.menu-item-has-children ul a {
     display: block;
     width: 40px;
     height: 3px;
-    background: #F7931E;
+    background: #f7931e;
     margin-top: 2rem;
 }
 
@@ -546,7 +546,7 @@ ul.primary-menu li.menu-item-has-children ul a {
 
 .page-slug-news .entry-title a,
 .archive .entry-title a {
-    color: #0B697E;
+    color: #0b697e;
 }
 
 .page-slug-news .entry-title:after,
@@ -981,8 +981,8 @@ h2.entry-title {
 }
 
 .entry-title {
-    color: #4E9ABA;
-    font-family: "Inter var", Noto Sans JP;
+    color: #4e9aba;
+    font-family: "Inter var", "Noto Sans JP";
     font-weight: 900;
     line-height: 1.6;
     letter-spacing: 1px;
@@ -991,7 +991,7 @@ h2.entry-title {
 }
 
 .entry-title:after {
-    background: #F7931E;
+    background: #f7931e;
     content: "";
     display: block;
     height: 3px;
@@ -1029,7 +1029,7 @@ h3.sd-title {
 
 .entry-content form input:focus,
 .entry-content form textarea:focus {
-    outline-color: #0B697E;
+    outline-color: #0b697e;
 }
 
 .entry-content button,
@@ -1057,7 +1057,7 @@ h3.sd-title {
 }
 
 .entry-content .section {
-    border-bottom: solid 1px #8DE4DD;
+    border-bottom: solid 1px #8de4dd;
     padding: 4rem 3rem 8rem;
     width: 100% !important;
     max-width: 100% !important;
@@ -1083,7 +1083,7 @@ h3.sd-title {
     font-size: 2.4rem;
     font-weight: 900;
     letter-spacing: 1px;
-    color: #4E9ABA;
+    color: #4e9aba;
 }
 
 @media print, screen and (min-width: 700px) {
@@ -1103,7 +1103,7 @@ h3.sd-title {
     display: block;
     width: 40px;
     height: 3px;
-    background: #F7931E;
+    background: #f7931e;
     margin-top: 2rem;
 }
 
@@ -1177,7 +1177,7 @@ ul.wp-block-latest-posts li .alignleft {
 }
 
 ul.wp-block-latest-posts li a {
-    color: #0B697E;
+    color: #0b697e;
     font-size: 1.8rem;
 }
 
@@ -1212,7 +1212,7 @@ ul.wp-block-latest-posts li a:hover {
     display: inline-block;
     padding: 10px 25px;
     text-align: center;
-    background: #F7931E;
+    background: #f7931e;
     color: #fff;
     border-radius: 5px;
     font-size: 2rem;
@@ -1320,7 +1320,7 @@ ul.wp-block-latest-posts li a:hover {
     font-weight: 900 !important;
     letter-spacing: 1px;
     position: relative;
-    color: #4E9ABA;
+    color: #4e9aba;
     margin-bottom: 4rem;
 }
 
@@ -1341,7 +1341,7 @@ ul.wp-block-latest-posts li a:hover {
     display: block;
     width: 40px;
     height: 3px;
-    background: #F7931E;
+    background: #f7931e;
     margin-top: 5rem;
 }
 
@@ -1532,7 +1532,7 @@ a.to-the-top:hover {
 }
 
 .entry-categories-inner a {
-    background: #0B697E;
+    background: #0b697e;
     border: none;
     border-radius: 3px;
     color: #fff !important;
