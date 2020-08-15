@@ -157,8 +157,7 @@ button,
 
 .entry-content hr,
 hr.styled-separator {
-    background: none;
-    border-top: 1px solid #4E9ABA;
+    background: linear-gradient(to left, #4E9ABA, #4E9ABA);
 }
 
 .entry-content hr::after, .entry-content hr::before,
