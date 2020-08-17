@@ -1015,6 +1015,10 @@ span.wcpt-session-speakers {
 	}
 }
 
+.wordcamp-organizer.wordcamp-organizers__post .jetpack-likes-widget-wrapper {
+	display: none;
+}
+
 @media (min-width: 700px) {
 	.wordcamp-block__item-title.wordcamp-organizers__title {
 		width: 100%;
