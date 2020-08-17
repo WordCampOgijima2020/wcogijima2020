@@ -1669,6 +1669,10 @@ ul.wp-block-latest-posts li a:hover {
 	display: block;
 }
 
+.footer-widgets.column-two.grid-item {
+	display: none;
+}
+
 #site-footer {
 	background: linear-gradient(rgba(78, 154, 186, 0.8), rgba(78, 154, 186, 0.8)), url(https://2020.ogijima.wordcamp.org/files/2020/08/footer_bg.png);
 	border-top: none;
@@ -1874,10 +1878,6 @@ figcaption {
 
 .pagination-single-inner {
 	font-size: 1.4rem;
-}
-
-.footer-widgets.column-two.grid-item {
-	display: none;
 }
 
 /* -------------------------------------------------------------------------- */
