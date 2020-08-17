@@ -413,6 +413,9 @@ span.wcpt-session-speakers {
 		display: flex;
 		flex-wrap: wrap;
 	}
+	.jetpack-likes-widget-wrapper {
+		display: none;
+	}
 }
 .wordcamp-block__item-title.wordcamp-organizers__title {
 	@media (min-width: 700px) {
