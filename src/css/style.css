@@ -1014,16 +1014,26 @@ span.wcpt-session-speakers {
 		display: flex;
 		flex-wrap: wrap;
 	}
+}
+
+@media (min-width: 700px) {
 	.wordcamp-block__item-title.wordcamp-organizers__title {
 		width: 100%;
 	}
+}
+
+@media (min-width: 700px) {
 	.wordcamp-image__avatar-container {
 		width: 25%;
 	}
-	.wordcamp-image__avatar-container .avatar {
-		border-radius: 20px;
-		padding: 5px;
-	}
+}
+
+.wordcamp-image__avatar-container .avatar {
+	border-radius: 20px;
+	padding: 5px;
+}
+
+@media (min-width: 700px) {
 	.wordcamp-block__item-content.wordcamp-organizers__content {
 		width: 75%;
 	}
