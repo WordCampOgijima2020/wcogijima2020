@@ -408,23 +408,29 @@ span.wcpt-session-speakers {
 
 /* organizers */
 
-@media (min-width: 700px) {
-	.wordcamp-organizer.wordcamp-organizers__post {
+.wordcamp-organizer.wordcamp-organizers__post {
+	@media (min-width: 700px) {
 		align-items: center;
-    display: flex;
-    flex-wrap: wrap;
+		display: flex;
+		flex-wrap: wrap;
 	}
-	.wordcamp-block__item-title.wordcamp-organizers__title {
+}
+.wordcamp-block__item-title.wordcamp-organizers__title {
+	@media (min-width: 700px) {
 		width: 100%;
 	}
-	.wordcamp-image__avatar-container {
+}
+.wordcamp-image__avatar-container {
+	@media (min-width: 700px) {
 		width: 25%;
-		.avatar {
-			border-radius: 20px;
-			padding: 5px;
-		}
 	}
-	.wordcamp-block__item-content.wordcamp-organizers__content {
+	.avatar {
+		border-radius: 20px;
+		padding: 5px;
+	}
+}
+.wordcamp-block__item-content.wordcamp-organizers__content {
+	@media (min-width: 700px) {
 		width: 75%;
 	}
 }
