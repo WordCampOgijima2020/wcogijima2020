@@ -1007,6 +1007,28 @@ span.wcpt-session-speakers {
 	margin-left: 0;
 }
 
+/* organizers */
+@media (min-width: 700px) {
+	.wordcamp-organizer.wordcamp-organizers__post {
+		align-items: center;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.wordcamp-block__item-title.wordcamp-organizers__title {
+		width: 100%;
+	}
+	.wordcamp-image__avatar-container {
+		width: 25%;
+	}
+	.wordcamp-image__avatar-container .avatar {
+		border-radius: 20px;
+		padding: 5px;
+	}
+	.wordcamp-block__item-content.wordcamp-organizers__content {
+		width: 75%;
+	}
+}
+
 /* -------------------------------------------------------------------------- */
 /*	11. Entry Content
 /* -------------------------------------------------------------------------- */
