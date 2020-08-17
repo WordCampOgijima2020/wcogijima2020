@@ -410,7 +410,6 @@ span.wcpt-session-speakers {
 
 .wordcamp-organizer.wordcamp-organizers__post {
 	@media (min-width: 700px) {
-		align-items: center;
 		display: flex;
 		flex-wrap: wrap;
 	}
@@ -422,11 +421,11 @@ span.wcpt-session-speakers {
 }
 .wordcamp-image__avatar-container {
 	@media (min-width: 700px) {
+		padding-left: 1em;
 		width: 25%;
 	}
 	.avatar {
 		border-radius: 20px;
-		padding: 5px;
 	}
 }
 .wordcamp-block__item-content.wordcamp-organizers__content {
