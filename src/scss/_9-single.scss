@@ -335,19 +335,21 @@ $typ_custom: #efefef;
 }
 
 //* zoom */
-.wcpt-time-1100am td:not(:first-of-type),
-.wcpt-time-200pm td:not(:first-of-type),
+.wcpt-time-1100am td,
+.wcpt-time-200pm td,
 .wcb-session-pm-workshop-1-2,
-.wcpt-time-300pm td:not(:first-of-type) {
-	&::after {
-		border-radius: 5px;
-		background-color: #2D8CFF;
-		color: #fff;
-		content: 'Zoom';
-		font-size: 1.2rem;
-		font-weight: 900;
-		margin-top: 1.2rem;
-		padding: 3px 6px;
+.wcpt-time-300pm td {
+	&:not(.wcpt-time) {
+		&::after {
+			border-radius: 5px;
+			background-color: #2D8CFF;
+			color: #fff;
+			content: 'Zoom';
+			font-size: 1.2rem;
+			font-weight: 900;
+			margin-top: 1.2rem;
+			padding: 3px 6px;
+		}
 	}
 }
 
