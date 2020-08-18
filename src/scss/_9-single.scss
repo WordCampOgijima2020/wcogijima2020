@@ -335,10 +335,10 @@ $typ_custom: #efefef;
 }
 
 //* zoom */
-.wcpt-time-1100am td,
-.wcpt-time-200pm td,
+.wcpt-time-1100am td:not(:first-of-type),
+.wcpt-time-200pm td:not(:first-of-type),
 .wcb-session-pm-workshop-1-2,
-.wcpt-time-300pm td {
+.wcpt-time-300pm td:not(:first-of-type) {
 	&::after {
 		border-radius: 5px;
 		background-color: #2D8CFF;
