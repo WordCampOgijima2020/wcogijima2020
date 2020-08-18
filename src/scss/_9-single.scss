@@ -335,10 +335,10 @@ $typ_custom: #efefef;
 }
 
 //* zoom */
-.wcb-session-blockeditor,
-.wcb-session-ec,
-.wcb-session-the-reasons-we-moved-to-japan-kagawa-ogijima,
-.wcb-session-pm-workshop-1 {
+.wcpt-time-1100am td,
+.wcpt-time-200pm td,
+.wcb-session-pm-workshop-1-2,
+.wcpt-time-300pm td {
 	&::after {
 		border-radius: 5px;
 		background-color: #2D8CFF;
