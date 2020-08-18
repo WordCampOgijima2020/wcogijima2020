@@ -85,3 +85,88 @@ figcaption {
 .pagination-single-inner {
 	font-size: 1.4rem;
 }
+
+/* footer-widgets を side bar として表示 */
+
+.footer-widgets.column-two.grid-item {
+	display: none;
+}
+@media (min-width: 700px) {
+    .archive.category article:first-of-type,
+    .archive.category article:nth-of-type(2),
+    .blog article:first-of-type,
+    .blog article:nth-of-type(2),
+    .archive.category .archive-header-inner,
+    .blog .archive-header-inner,
+    .single-post article {
+		padding-right: 25%!important;
+		max-width: 90%!important;
+		margin: auto;
+    }
+    .archive.category .footer-widgets.column-two.grid-item,
+    .blog .footer-widgets.column-two.grid-item,
+    .single-post .footer-widgets.column-two.grid-item {
+		background: #c7e8ed;
+		border-radius: 2rem;
+		display: block;
+		position: absolute;
+		top: 30rem;
+		right: 5%;
+		width: 19%;
+		padding: 1.6rem;
+		margin: 0;
+		.widget-title {
+			font-size: 1.8rem;
+			margin-bottom: 1rem;
+		}
+	}
+
+    .archive.category .footer-widgets.column-two.grid-item a,
+    .blog .footer-widgets.column-two.grid-item a,
+    .single-post .footer-widgets.column-two.grid-item a {
+        color: #0b697e;
+        font-size: 14px;
+    }
+}
+.archive,
+.blog {
+	:not(article) hr.styled-separator.section-inner:first-of-type {
+    background: linear-gradient(to right, #4E9ABA calc(72% - 16px), transparent calc(28% + 16px));
+	}
+} 
+
+.entry-content {
+	a{
+		color: #0B697E;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+}
+
+.wp-block-group__inner-container {
+	a{
+		color: #0B697E;
+		&:hover{
+			text-decoration:underline;
+		}
+	}
+}
+
+blockquote.wp-block-quote {
+    border-color: #ccc;
+    background-color: #DCFBFF;
+    border-color: #8DE4DD;
+    padding: 16px;
+	position: relative;
+	&:after {
+		content: "“";
+		font-family: Arial, sans-serif;
+		font-weight: 700;
+		font-size: 60px;
+		position: absolute;
+		color: #8DE4DD;
+		top: -28px;
+		left: 10px;
+	}
+}
