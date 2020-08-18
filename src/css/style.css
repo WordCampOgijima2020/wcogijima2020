@@ -901,19 +901,33 @@ td.wcpt-col-time {
 	padding: 1.8rem 1.2rem;
 }
 
-.wcb-session-opening::after,
-.wcb-session-closing::after,
-.wcb-session-blockeditor::after,
-.wcb-session-meeting::after,
-.wcb-session-category-session::after {
-	content: 'YouTube';
+.wcb-session-opening .wcb-session-cell-content::after,
+.wcb-session-closing .wcb-session-cell-content::after,
+.wcb-session-blockeditor .wcb-session-cell-content::after,
+.wcb-session-meeting .wcb-session-cell-content::after,
+.wcb-session-category-session .wcb-session-cell-content::after {
+	border-radius: 5px;
 	background-color: #ff0000;
 	color: #fff;
-	padding: 3px 6px;
-	border-radius: 5px;
+	content: 'YouTube';
 	font-size: 1.2rem;
 	font-weight: 900;
 	margin-top: 1.2rem;
+	padding: 3px 6px;
+}
+
+.wcb-session-blockeditor::after,
+.wcb-session-ec::after,
+.wcb-session-the-reasons-we-moved-to-japan-kagawa-ogijima::after,
+.wcb-session-pm-workshop-1::after {
+	border-radius: 5px;
+	background-color: #2D8CFF;
+	color: #fff;
+	content: 'Zoom';
+	font-size: 1.2rem;
+	font-weight: 900;
+	margin-top: 1.2rem;
+	padding: 3px 6px;
 }
 
 .wcb-session-category-session {
