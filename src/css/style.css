@@ -916,10 +916,10 @@ td.wcpt-col-time {
 	padding: 3px 6px;
 }
 
-.wcb-session-blockeditor::after,
-.wcb-session-ec::after,
-.wcb-session-the-reasons-we-moved-to-japan-kagawa-ogijima::after,
-.wcb-session-pm-workshop-1::after {
+.wcpt-time-1100am td::after,
+.wcpt-time-200pm td::after,
+.wcb-session-pm-workshop-1-2::after,
+.wcpt-time-300pm td::after {
 	border-radius: 5px;
 	background-color: #2D8CFF;
 	color: #fff;
