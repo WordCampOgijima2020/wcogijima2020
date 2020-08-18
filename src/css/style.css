@@ -188,8 +188,7 @@ hr.styled-separator::before {
 .site-description {
 	border: 0;
 	clip: rect(1px, 1px, 1px, 1px);
-	-webkit-clip-path: inset(50%);
-	        clip-path: inset(50%);
+	clip-path: inset(50%);
 	height: 1px;
 	margin: -1px;
 	overflow: hidden;
@@ -916,10 +915,10 @@ td.wcpt-col-time {
 	padding: 3px 6px;
 }
 
-.wcpt-time-1100am td::after,
-.wcpt-time-200pm td::after,
+.wcpt-time-1100am td:not(:first-of-type)::after,
+.wcpt-time-200pm td:not(:first-of-type)::after,
 .wcb-session-pm-workshop-1-2::after,
-.wcpt-time-300pm td::after {
+.wcpt-time-300pm td:not(:first-of-type)::after {
 	border-radius: 5px;
 	background-color: #2D8CFF;
 	color: #fff;
@@ -1979,30 +1978,38 @@ blockquote.wp-block-quote:after {
 /* -------------------------------------------------------------------------- */
 @keyframes float_logo {
 	0% {
+		-webkit-transform: rotate(-4deg);
 		transform: rotate(-4deg);
 	}
 	24% {
+		-webkit-transform: translateX(-8px) rotate(5deg);
 		transform: translateX(-8px) rotate(5deg);
 	}
 	48% {
+		-webkit-transform: translateX(20px) rotate(-6deg);
 		transform: translateX(20px) rotate(-6deg);
 	}
 	75% {
+		-webkit-transform: translateX(-24px) rotate(5deg);
 		transform: translateX(-24px) rotate(5deg);
 	}
 	100% {
+		-webkit-transform: translateX(0) rotate(-4deg);
 		transform: translateX(0) rotate(-4deg);
 	}
 }
 
 @keyframes float_img {
 	0% {
+		-webkit-transform: translateY(0);
 		transform: translateY(0);
 	}
 	50% {
+		-webkit-transform: translateY(-10px);
 		transform: translateY(-10px);
 	}
 	100% {
+		-webkit-transform: translateY(0);
 		transform: translateY(0);
 	}
 }
