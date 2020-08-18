@@ -313,21 +313,42 @@ $typ_custom: #efefef;
 	line-height: 1.8;
 	padding: 1.8rem 1.2rem;
 }
+
+//* YouTube */
 .wcb-session-opening,
 .wcb-session-closing,
 .wcb-session-blockeditor,
 .wcb-session-meeting,
 .wcb-session-category-session {
-	&::after {
-    content: 'YouTube';
-    background-color: #ff0000;
-    color: #fff;
-    padding: 3px 6px;
-    border-radius: 5px;
-    font-size: 1.2rem;
-		font-weight: 900;
-    margin-top: 1.2rem;
+	.wcb-session-cell-content {
+		&::after {
+			border-radius: 5px;
+			background-color: #ff0000;
+			color: #fff;
+			content: 'YouTube';
+			font-size: 1.2rem;
+			font-weight: 900;
+			margin-top: 1.2rem;
+			padding: 3px 6px;
 		}
+	}
+}
+
+//* zoom */
+.wcb-session-blockeditor,
+.wcb-session-ec,
+.wcb-session-the-reasons-we-moved-to-japan-kagawa-ogijima,
+.wcb-session-pm-workshop-1 {
+	&::after {
+		border-radius: 5px;
+		background-color: #2D8CFF;
+		color: #fff;
+		content: 'Zoom';
+		font-size: 1.2rem;
+		font-weight: 900;
+		margin-top: 1.2rem;
+		padding: 3px 6px;
+	}
 }
 
 .wcb-session-category-session {
