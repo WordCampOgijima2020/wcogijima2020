@@ -126,6 +126,11 @@ figcaption {
 	}
 	.widget.widget_recent_entries a {
 		display: inherit;
+		em {
+			display: block;
+			font-size: 0.85em;
+			font-style: normal;
+		}
 	}
 }
 .archive,
