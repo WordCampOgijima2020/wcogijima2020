@@ -321,7 +321,7 @@ h3.sd-title {
 }
 .admin-bar.home .top_tickets_btn {
 	@include min(1000px){
-    top: 40px;
+	top: 40px;
 	}
 }
 
@@ -388,16 +388,14 @@ ul {
 			a {
 				color: $linkcolor;
 				font-size:1.8rem;
-				&:after {
-					content: "＞";
-					display: inline-block;
-					font-size: 10px;
-					margin-left: 10px;
-					vertical-align: middle;
-				}
 				&:hover {
 					opacity: .7;
 					text-decoration:underline;
+				}
+				em {
+					display: block;
+					font-size: .85em;
+					font-style: normal;
 				}
 			}
 			@include min($bp){
