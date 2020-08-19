@@ -111,7 +111,6 @@ $right_media_border_color: #a2d1e6;
 			margin:0;
 			@include max($bp){
 				width:100% !important;
-
 			}
 		}
 	}
@@ -268,9 +267,9 @@ table.wcpt-schedule.alignwide {
 	}
 }
 th.wcpt-col-time:after {
-    content:' (UTC+09)';
-    font-size: 1rem;
-    font-weight:400;
+	content:' (UTC+09)';
+	font-size: 1rem;
+	font-weight:400;
 }
 td.wcpt-col-time {
 	font-size: 1.2rem;
@@ -289,7 +288,6 @@ th.wcpt-col-track {
 	padding: .5rem 1rem;
 	background-color: #555;
 	border: none;
-	//overflow: hidden;
 	@include min($bp){
 		display: block;
 		text-align: right;
@@ -297,7 +295,7 @@ th.wcpt-col-track {
 }
 @include max($bp) {
 	.wcpt-schedule tr {
-    border: none!important;
+	border: none!important;
 	}
 }
 
@@ -307,7 +305,7 @@ $cat_meeting: #d9ead3;
 $cat_workshop: #fff2cc;
 $typ_custom: #efefef;
 .wcpt-session-type-session {
-  background: $typ_session;
+	background: $typ_session;
 	outline: 2px solid darken($typ_session, 15%)!important;
 	outline-offset: -8px;
 	line-height: 1.8;
@@ -405,7 +403,7 @@ $typ_custom: #efefef;
 }
 
 .single-wcb_session .pagination-single {
-    display: none;
+	display: none;
 }
 
 .wcpt-session-title {
@@ -418,8 +416,8 @@ $typ_custom: #efefef;
 	}
 }
 span.wcpt-session-speakers {
-    display: block;
-    font-size: .9em;
+	display: block;
+	font-size: .9em;
 }
 
 #session-speaker-names {
