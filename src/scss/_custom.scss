@@ -133,7 +133,8 @@ figcaption {
 .blog {
 	//:not(article) hr.styled-separator.section-inner:first-of-type
 	:not(article) hr.styled-separator.section-inner {
-    background: linear-gradient(to right, #4E9ABA calc(72% - 16px), transparent calc(28% + 16px));
+		background: linear-gradient(to right,#4E9ABA 73%,transparent 27%);
+		max-width: 92rem;
 	}
 } 
 
