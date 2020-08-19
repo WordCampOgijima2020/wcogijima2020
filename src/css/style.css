@@ -512,9 +512,6 @@ ul.primary-menu li.menu-item-has-children ul a {
 	.archive.category article,
 	.blog article {
 		position: relative;
-		max-width: 92rem !important;
-		padding-top: 200px;
-		margin: 0 auto;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center !important;
@@ -1902,8 +1899,8 @@ figcaption {
 	.archive.category .archive-header-inner,
 	.blog .archive-header-inner,
 	.single-post article {
-		padding-right: 25% !important;
-		max-width: 90% !important;
+		padding-right: 24rem !important;
+		max-width: 92rem !important;
 		margin: auto;
 	}
 	.archive.category .footer-widgets.column-two.grid-item,
@@ -1914,10 +1911,9 @@ figcaption {
 		display: block;
 		position: absolute;
 		top: 30rem;
-		right: 5%;
-		width: 19%;
+		width: 22rem;
 		padding: 1.6rem;
-		margin: 0;
+		margin-left: 74rem;
 	}
 	.archive.category .footer-widgets.column-two.grid-item .widget-title,
 	.blog .footer-widgets.column-two.grid-item .widget-title,
