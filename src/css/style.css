@@ -427,6 +427,7 @@ ul.primary-menu ul li a {
 
 ul.primary-menu li.menu-item-has-children a {
 	margin-right: 0;
+	padding-right: 0;
 }
 
 ul.primary-menu li.menu-item-has-children ul a {
@@ -1896,10 +1897,8 @@ figcaption {
 }
 
 @media (min-width: 700px) {
-	.archive.category article:first-of-type,
-	.archive.category article:nth-of-type(2),
-	.blog article:first-of-type,
-	.blog article:nth-of-type(2),
+	.archive.category article,
+	.blog article,
 	.archive.category .archive-header-inner,
 	.blog .archive-header-inner,
 	.single-post article {
