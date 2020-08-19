@@ -92,10 +92,12 @@ figcaption {
 	display: none;
 }
 @media (min-width: 700px) {
-    .archive.category article:first-of-type,
-    .archive.category article:nth-of-type(2),
-    .blog article:first-of-type,
-    .blog article:nth-of-type(2),
+    //.archive.category article:first-of-type,
+    //.archive.category article:nth-of-type(2),
+    .archive.category article,
+    //.blog article:first-of-type,
+    //.blog article:nth-of-type(2),
+    .blog article,
     .archive.category .archive-header-inner,
     .blog .archive-header-inner,
     .single-post article {
