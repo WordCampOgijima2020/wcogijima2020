@@ -1927,6 +1927,9 @@ figcaption {
 		color: #0b697e;
 		font-size: 14px;
 	}
+	.widget.widget_recent_entries a {
+		display: inherit;
+	}
 }
 
 .archive :not(article) hr.styled-separator.section-inner,
