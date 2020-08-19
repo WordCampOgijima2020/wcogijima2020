@@ -101,8 +101,8 @@ figcaption {
     .archive.category .archive-header-inner,
     .blog .archive-header-inner,
     .single-post article {
-		padding-right: 25%!important;
-		max-width: 90%!important;
+		padding-right: 24rem !important;
+		max-width: 92rem !important;
 		margin: auto;
     }
     .archive.category .footer-widgets.column-two.grid-item,
@@ -113,10 +113,9 @@ figcaption {
 		display: block;
 		position: absolute;
 		top: 30rem;
-		right: 5%;
-		width: 19%;
+		width: 22rem;
 		padding: 1.6rem;
-		margin: 0;
+		margin-left: 74rem;
 		.widget-title {
 			font-size: 1.8rem;
 			margin-bottom: 1rem;
