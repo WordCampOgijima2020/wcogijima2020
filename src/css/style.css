@@ -1452,17 +1452,15 @@ ul.wp-block-latest-posts li a {
 	font-size: 1.8rem;
 }
 
-ul.wp-block-latest-posts li a:after {
-	content: "＞";
-	display: inline-block;
-	font-size: 10px;
-	margin-left: 10px;
-	vertical-align: middle;
-}
-
 ul.wp-block-latest-posts li a:hover {
 	opacity: .7;
 	text-decoration: underline;
+}
+
+ul.wp-block-latest-posts li a em {
+	display: block;
+	font-size: .85em;
+	font-style: normal;
 }
 
 @media print, screen and (min-width: 700px) {
@@ -1929,6 +1927,11 @@ figcaption {
 	}
 	.widget.widget_recent_entries a {
 		display: inherit;
+	}
+	.widget.widget_recent_entries a em {
+		display: block;
+		font-size: 0.85em;
+		font-style: normal;
 	}
 }
 
