@@ -145,6 +145,7 @@ figcaption {
 .entry-content {
 	a{
 		color: #0B697E;
+		text-decoration: none;
 		&:hover{
 			text-decoration: underline;
 		}
