@@ -158,6 +158,7 @@ button,
 .entry-content hr,
 hr.styled-separator {
 	background: linear-gradient(to left, #8de4dd, #8de4dd);
+	max-width: 92rem;
 }
 
 .entry-content hr::after, .entry-content hr::before,
