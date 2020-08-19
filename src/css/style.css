@@ -1936,7 +1936,7 @@ figcaption {
 	}
 }
 
-.archive :not(article) hr.styled-separator.section-inner,
+.archive.category :not(article) hr.styled-separator.section-inner,
 .blog :not(article) hr.styled-separator.section-inner {
 	background: linear-gradient(to right, #4E9ABA 73%, transparent 27%);
 	max-width: 92rem;
