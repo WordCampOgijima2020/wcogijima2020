@@ -813,6 +813,7 @@ td.tix-column-price {
 .single-wcb_session .entry-content {
 	margin: auto;
 	max-width: 90rem;
+	width: calc(100% - 4rem);
 }
 
 .tax-wcb_session_category #session-speaker-names,
