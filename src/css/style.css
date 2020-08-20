@@ -985,6 +985,7 @@ td.wcpt-col-time {
 .wcb-session-opening .wcb-session-cell-content::after,
 .wcb-session-closing .wcb-session-cell-content::after,
 .wcb-session-blockeditor .wcb-session-cell-content::after,
+.wcb-session-workshop-2 .wcb-session-cell-content::after,
 .wcb-session-category-session .wcb-session-cell-content::after {
 	border-radius: 5px;
 	background-color: #ff0000;
