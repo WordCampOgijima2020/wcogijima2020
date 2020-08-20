@@ -518,7 +518,7 @@ span.wcpt-session-speakers {
 			list-style: none;
 		}
 
-		.icon-zoom {
+		.c-icon-zoom {
 			background-color: #2D8CFF;
 			color: #fff;
 			border-radius: 5px;
@@ -527,6 +527,16 @@ span.wcpt-session-speakers {
 			font-style: normal;
 			padding: 3px 6px;
 			margin: 0 4px;
+		}
+		.c-icon-youtube {
+		  background-color: #ff0000;
+		  color: #fff;
+		  border-radius: 5px;
+		  font-size: 1.2rem;
+		  font-weight: 900;
+		  font-style: normal;
+		  padding: 3px 6px;
+		  margin: 0 4px;
 		}
 	}
 }
