@@ -457,3 +457,80 @@ span.wcpt-session-speakers {
 		width: 75%;
 	}
 }
+
+/* sessions */
+.single-wcb_session {
+	.post-inner {
+		padding-top: 0;
+	}
+	.entry-content-title-orange {
+		color: #F7931E;
+		font-weight: 900;
+		font-size: 2rem;
+		line-height: 1.75;
+		letter-spacing: 0.1em;
+		margin: 6rem auto 2rem;
+	}
+}
+.single-session-speaker-list {
+	margin-bottom: 0 !important;
+	margin-top: 0 !important;
+	.wp-block-group__inner-container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		flex-shrink: 1;
+		margin-left: -8px;
+		margin-right: -8px;
+		.wordcamp-post-list {
+			width: 120px;
+			flex-basis: 120px;
+			text-align: center;
+			margin-left: 0 !important;
+			margin-right: 0 !important;
+			margin-bottom: 0;
+			padding: 0 8px;
+			.wordcamp-post-list__post {
+				margin-bottom: 0;
+				margin-top: 8px;
+			}
+		}
+	}
+	.wordcamp-block__item-title{
+		font-size: 1.4rem;
+		font-weight: normal;
+		margin: 0 0 8px;
+	}
+	.wordcamp-image__avatar-container{
+		padding-left: 0;
+		width: 100%;
+	}
+}
+.online-type{
+	.list-online-type{
+		max-width: 90rem;
+		width: calc(100% - 4rem);
+		display: flex;
+		margin: 0 -4px;
+
+		.icon-online-type {
+			padding: 4px;
+			list-style: none;
+		}
+
+		.icon-zoom {
+			background-color: #2D8CFF;
+			color: #fff;
+			border-radius: 5px;
+			font-size: 1.2rem;
+			font-weight: 900;
+			font-style: normal;
+			padding: 3px 6px;
+			margin: 0 4px;
+		}
+	}
+}
+.session-categories-links{
+	display: inline-block;
+	margin-top: 4rem;
+}
