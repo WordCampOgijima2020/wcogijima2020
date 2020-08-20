@@ -472,28 +472,20 @@ span.wcpt-session-speakers {
 		margin: 6rem auto 2rem;
 	}
 }
-.single-session-speaker-list {
-	margin-bottom: 0 !important;
-	margin-top: 0 !important;
-	.wp-block-group__inner-container {
+.single-session-speaker {
+	.wordcamp-speakers{
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: flex-start;
 		flex-shrink: 1;
-		margin-left: -8px;
-		margin-right: -8px;
-		.wordcamp-post-list {
-			width: 120px;
-			flex-basis: 120px;
+		margin-left: -8px !important;
+		margin-right: -8px !important;
+		li{
+			max-width: 120px;
+			flex-basis: auto;
 			text-align: center;
-			margin-left: 0 !important;
-			margin-right: 0 !important;
 			margin-bottom: 0;
 			padding: 0 8px;
-			.wordcamp-post-list__post {
-				margin-bottom: 0;
-				margin-top: 8px;
-			}
 		}
 	}
 	.wordcamp-block__item-title{
