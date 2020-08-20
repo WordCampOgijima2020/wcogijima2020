@@ -603,7 +603,7 @@ ul.primary-menu li.menu-item-has-children ul a {
 	display: none;
 }
 
-.page-slug-sessions .wordcamp-sessions__post.slug-island-life .wordcamp-sessions__categories::before, .page-slug-sessions .wordcamp-sessions__post.slug-blockeditor .wordcamp-sessions__categories::before, .page-slug-sessions .wordcamp-sessions__post.slug-lunch-session-1 .wordcamp-sessions__categories::before, .page-slug-sessions .wordcamp-sessions__post.slug-lunch-session-2 .wordcamp-sessions__categories::before, .page-slug-sessions .wordcamp-sessions__post.slug-pm-session-1 .wordcamp-sessions__categories::before, .page-slug-sessions .wordcamp-sessions__post.slug-pm-session-2 .wordcamp-sessions__categories::before, .page-slug-sessions .wordcamp-sessions__post.slug-last-session .wordcamp-sessions__categories::before {
+.page-slug-sessions .wordcamp-sessions__post.slug-island-life .wordcamp-sessions__categories::before, .page-slug-sessions .wordcamp-sessions__post.slug-blockeditor .wordcamp-sessions__categories::before, .page-slug-sessions .wordcamp-sessions__post.slug-lunch-session-1 .wordcamp-sessions__categories::before, .page-slug-sessions .wordcamp-sessions__post.slug-lunch-session-2 .wordcamp-sessions__categories::before, .page-slug-sessions .wordcamp-sessions__post.slug-pm-session-1 .wordcamp-sessions__categories::before, .page-slug-sessions .wordcamp-sessions__post.slug-pm-session-2 .wordcamp-sessions__categories::before, .page-slug-sessions .wordcamp-sessions__post.slug-workshop-2 .wordcamp-sessions__categories::before, .page-slug-sessions .wordcamp-sessions__post.slug-last-session .wordcamp-sessions__categories::before {
 	content: 'YouTube';
 	background-color: #ff0000;
 	visibility: visible;
