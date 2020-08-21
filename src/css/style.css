@@ -1142,6 +1142,15 @@ span.wcpt-session-speakers {
 	padding-top: 0;
 }
 
+.single-wcb_session .entry-content .wp-block-group {
+	width: 100% !important;
+}
+
+.single-wcb_session .entry-content .session-categories-links {
+	width: 100% !important;
+	margin-left: 0;
+}
+
 .single-wcb_session .entry-content-title-orange {
 	color: #F7931E;
 	font-weight: 900;
@@ -1183,7 +1192,7 @@ span.wcpt-session-speakers {
 	max-width: 90rem;
 	width: calc(100% - 4rem);
 	display: flex;
-	margin: 0 -4px;
+	margin: 0 -4px !important;
 }
 
 .online-type .list-online-type .icon-online-type {
