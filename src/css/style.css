@@ -1151,6 +1151,11 @@ span.wcpt-session-speakers {
 	margin-left: 0;
 }
 
+.single-wcb_session .entry-content .session-speakers,
+.single-wcb_session .entry-content #session-speaker-names {
+	display: none;
+}
+
 .single-wcb_session .entry-content-title-orange {
 	color: #F7931E;
 	font-weight: 900;
@@ -1177,10 +1182,16 @@ span.wcpt-session-speakers {
 	padding: 0 8px;
 }
 
+.single-session-speaker .wordcamp-speaker {
+	display: flex;
+	flex-direction: column;
+}
+
 .single-session-speaker .wordcamp-block__item-title {
 	font-size: 1.4rem;
 	font-weight: normal;
 	margin: 0 0 8px;
+	order: 1;
 }
 
 .single-session-speaker .wordcamp-image__avatar-container {
