@@ -603,7 +603,7 @@ ul.primary-menu li.menu-item-has-children ul a {
 	display: none;
 }
 
-.page-slug-sessions .wordcamp-sessions__post.slug-island-life .wordcamp-sessions__categories::before, .page-slug-sessions .wordcamp-sessions__post.slug-blockeditor .wordcamp-sessions__categories::before, .page-slug-sessions .wordcamp-sessions__post.slug-lunch-session-1 .wordcamp-sessions__categories::before, .page-slug-sessions .wordcamp-sessions__post.slug-lunch-session-2 .wordcamp-sessions__categories::before, .page-slug-sessions .wordcamp-sessions__post.slug-pm-session-1 .wordcamp-sessions__categories::before, .page-slug-sessions .wordcamp-sessions__post.slug-pm-session-2 .wordcamp-sessions__categories::before, .page-slug-sessions .wordcamp-sessions__post.slug-future-of-remote-work .wordcamp-sessions__categories::before, .page-slug-sessions .wordcamp-sessions__post.slug-last-session .wordcamp-sessions__categories::before {
+.page-slug-sessions .wordcamp-sessions__post.slug-island-life .wordcamp-sessions__categories::before, .page-slug-sessions .wordcamp-sessions__post.slug-blockeditor .wordcamp-sessions__categories::before, .page-slug-sessions .wordcamp-sessions__post.slug-lunch-session-1 .wordcamp-sessions__categories::before, .page-slug-sessions .wordcamp-sessions__post.slug-lunch-session-2 .wordcamp-sessions__categories::before, .page-slug-sessions .wordcamp-sessions__post.slug-pm-session-1 .wordcamp-sessions__categories::before, .page-slug-sessions .wordcamp-sessions__post.slug-pm-session-2 .wordcamp-sessions__categories::before, .page-slug-sessions .wordcamp-sessions__post.slug-future-of-remote-work .wordcamp-sessions__categories::before, .page-slug-sessions .wordcamp-sessions__post.slug-looking-at-graphic-reports .wordcamp-sessions__categories::before, .page-slug-sessions .wordcamp-sessions__post.slug-last-session .wordcamp-sessions__categories::before {
 	content: 'YouTube';
 	background-color: #ff0000;
 	visibility: visible;
@@ -986,6 +986,7 @@ td.wcpt-col-time {
 .wcb-session-closing-remarks .wcb-session-cell-content::after,
 .wcb-session-blockeditor .wcb-session-cell-content::after,
 .wcb-session-workshop-2 .wcb-session-cell-content::after,
+.wcb-session-looking-at-graphic-reports .wcb-session-cell-content::after,
 .wcb-session-category-session .wcb-session-cell-content::after {
 	border-radius: 5px;
 	background-color: #ff0000;
