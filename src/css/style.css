@@ -979,10 +979,12 @@ td.wcpt-col-time {
 }
 
 .wcb-session-radio .wcb-session-cell-content::after,
+.wcb-session-radio-calisthenics .wcb-session-cell-content::after,
 .wcb-session-opening-remarks-en .wcb-session-cell-content::after,
 .wcb-session-opening-remarks .wcb-session-cell-content::after,
 .wcb-session-closing-remarks .wcb-session-cell-content::after,
 .wcb-session-blockeditor .wcb-session-cell-content::after,
+.wcb-session-lets-use-the-block-editor-newcomers-welcome .wcb-session-cell-content::after,
 .wcb-session-workshop-2 .wcb-session-cell-content::after,
 .wcb-session-looking-at-graphic-reports .wcb-session-cell-content::after,
 .wcb-session-looking-back-at-wordcamp-ogijima-2020-talks-using-graphic-reports .wcb-session-cell-content::after,
