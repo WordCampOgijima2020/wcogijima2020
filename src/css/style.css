@@ -1003,6 +1003,7 @@ td.wcpt-col-time {
 .wcpt-time-1100am td:not(.wcpt-time)::after,
 .wcpt-time-200pm td:not(.wcpt-time)::after,
 .wcb-session-pm-workshop-1-2:not(.wcpt-time)::after,
+.wcb-session-continue-create-a-page-on-wordpress-com-workshop:not(.wcpt-time)::after,
 .wcpt-time-300pm td:not(.wcpt-time)::after {
 	border-radius: 5px;
 	background-color: #2D8CFF;
