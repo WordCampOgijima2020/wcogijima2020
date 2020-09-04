@@ -560,10 +560,6 @@ ul.primary-menu li.menu-item-has-children ul a {
 	border-bottom: 1px solid #8DE4DD;
 }
 
-.page-slug-sessions .wordcamp-post-list__post:first-child, .page-slug-sessions .wordcamp-post-list__post:last-child {
-	display: none;
-}
-
 .page-slug-sessions .wordcamp-sessions__speakers {
 	font-style: normal;
 	visibility: hidden;
