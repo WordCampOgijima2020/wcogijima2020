@@ -100,11 +100,6 @@
 	.wordcamp-post-list__post{
 		padding-bottom: 24px;
 		border-bottom: 1px solid #8DE4DD;
-		//opening, closingの非表示
-		&:first-child,
-		&:last-child {
-		  display: none;
-		}
 	}
 	.wordcamp-sessions__speakers{
 		font-style: normal;
