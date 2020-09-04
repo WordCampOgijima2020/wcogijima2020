@@ -82,6 +82,7 @@
 				padding: 0;
 				.sponsor-level {
 					display: flex;
+					flex-wrap: wrap;
 					position: relative;
 					padding-top: 35px;
 					justify-content: space-between;
